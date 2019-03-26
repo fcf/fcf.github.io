@@ -1,0 +1,29 @@
+.decheng_logo {
+    height: 41px;
+}
+
+.tenet_decheng_font {
+    font-size: 21px;
+    color: #DAA520;
+}
+
+.bg {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("../img/decheng/tenet_background.jpg");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url("../img/decheng/tenet_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.advantage_bubble {
+    background-color: rgba(111, 219, 230, 0.3);
+    border-radius: 10px;
+}
+
+.business-sector-bubble {
+    background-color: rgba(111, 219, 230, 0.3);
+    border-radius: 10px;
+}
