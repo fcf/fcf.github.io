@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CopyRight To clia.cn //////////////////////////// */
+/*首页 */
+.Office_Services{ margin-top:64px; }
+.Office_Services_tit{ font-family:"HYRunYuan-65W";font-style:italic; font-size:32px; color:#003e55; text-align:center; background:url(/templets/img/services_bg.png) no-repeat 15px center;}
+.Office_Services_tit span{background: #fff;padding: 0 15px;}
+.Office_Services_list{ margin-top:44px; padding-left:82px; height:400px; overflow:hidden;}
+.Office_Services_list .bd{width: 1070px;overflow: hidden;}
+.Office_Services_list dl{ width:320px; font-family:"微软雅黑"; float:left; margin-right:70px;
+	/*margin-right: 126px;*/
+	/* opacity: 0;
+	filter: alpha(opacity=0); */
+
+}
+.Office_Services_list dl dd a{
+filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+.Office_Services_list dl dd a:hover{
+filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.Office_Services_list dl dt{ height:250px; background:#003e55;}
+.Office_Services_list dl dt h2{font-family:"HYRunYuan-65W";font-style:italic; text-align:center; font-size:20px; color:#f2e2cc; padding-top:25px;}
+.Office_Services_list dl dt p{ padding:15px 37px 0px 37px; font-size:14px; color:#f2e2cc; line-height:28px; }
+.Office_Services_list dl dt span{ display:block; width:122px; height:31px; margin:24px auto auto auto;}
+.Office_Services_list dl dt span a{ display:block; width:120px; height:29px; line-height:29px; background:#fff; border:1px solid #959595; text-align:center; color:#626262;}
+.Office_Services_list dl dt span a:hover{ background:#fff; border:1px solid #81603b; color:#81603b;}
+
+.about{ margin-top:80px; }
+.about_tit{ font-family:"HYRunYuan-65W";font-style:italic; font-size:32px; color:#003e55; text-align:center; background:url(/templets/img/services_bg.png) no-repeat 15px center;}
+.about_tit span{background: #fff;padding: 0 15px;}
+.about_txt{ font-family:"微软雅黑"; font-size:16px; color:#535353; line-height:28px; padding-top:30px;}
+.about_map{ padding-top:50px;}
+
+.services_main{ margin-top:88px;}
+.services_main dl{ height:280px;  font-family:"微软雅黑";  margin-bottom:1px;overflow:hidden;background:#003e55; }
+
+.services_main dl a img { width:540px; height:280px; -webkit-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out;}
+.services_main dl a:hover img{-webkit-transform:scale(1.04);-moz-transform:scale(1.04);-o-transform:scale(1.04);transform:scale(1.04);}
+.services_main dl dd{ float:left; width:540px; height:280px; overflow:hidden; position:relative;}
+.services_main dl dd.fr{float: right;}
+.services_main dl dt{ float:left; width:540px;}
+.services_main dl dt h2{font-family:"HYRunYuan-65W";font-style:italic; font-size:24px; font-weight:100;padding:55px 57px 0px 57px; color:#f2e2cc;}
+.services_main dl dt p{ padding:27px 57px 0px 57px; font-size:16px; line-height:28px; color:#f2e2cc;}

@@ -1,0 +1,176 @@
+﻿@charset "utf-8";
+@import url("reset.css");
+/* CopyRight To Seji.cn //////////////////////////// */
+@import url("base.css");
+/* head ////////////////////////////////////////// */
+.loading{
+    width:100%;
+    height:100%;
+    position: fixed;
+    background: #ffffff;
+    z-index: 11;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+.loading img{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+
+.header .logo{ padding-top:50px;}
+.header{ height:152px;}
+.header .logo a{float: left;}
+.header .logo img{height: 86px;width: auto;}
+.header .logo p{float: right;margin-top: 33px;}
+.header_website{ padding-top:23px; text-align:right;}
+.header_website span{ padding-left:10px; padding-right:10px;}
+.header_website a{ font-family:"微软雅黑"; font-size:14px; color:#535353;}
+.header_website a:hover{ color:#81603b;}
+.header_website b{ font-weight:100; padding-right:10px;}
+.header_website .header_mfdy a{color:#7d5a2f;}
+
+.header_website{ position:relative;}
+.header_website img{ vertical-align:middle;}
+#weixing_btn{padding-right:10px;}
+.weixing_box{ position:absolute; top:50px; right:5px; z-index:9; display:none; }
+#weixing_btn:hover .weixing_box {display: block; }
+#weixing_btn img:hover{opacity:0.7;filter:alpha(opacity=70);}
+#weixing_btn .weixing_box img:hover{opacity:1;filter:alpha(opacity=100);}
+
+
+.nav{ padding-top:44px;}
+.nav ul li{ float:left; font-family:"微软雅黑"; font-size:16px; padding-left:16px; padding-right:16px; border-right:1px solid #b1b1b1;}
+.nav ul li a{ color:#003e55;}
+.nav ul li a:hover{ color:#81603b;}
+.nav ul li .hover{ color:#81603b;}
+
+
+.sz1{
+    width:11px;
+    height:35px;
+    background: url(http://www.triumphfamily.com/templets/img/sz_1.png) no-repeat;
+    margin-left: 15px;
+}
+.sz2{
+    width:22px;
+    height:35px;
+    background: url(http://www.triumphfamily.com/templets/img/sz_2.png) no-repeat;
+    margin-left: 11px;
+}
+.sz3{
+    width:24px;
+    height:35px;
+    background: url(http://www.triumphfamily.com/templets/img/sz_3.png) no-repeat;
+    margin-left: 11px;
+}
+.sz4{
+    width:24px;
+    height:35px;
+    background: url(http://www.triumphfamily.com/templets/img/sz_4.png) no-repeat;
+    margin-left: 11px;
+}
+.w1000px{
+	width: 1080px;
+	margin:0 auto;
+	position: relative;
+}
+.banner{
+	height: 900px;
+	position: relative;
+	min-width: 1000px;
+    overflow: hidden;
+    width: 100%;
+}
+.banner ul li {
+    display: none;
+    height: 900px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.banner ul li a{
+display:block; width:100%; height:900px; position:absolute;z-index:1;
+}
+.banner .number {
+    bottom: 30px;
+    left: 50%;
+    margin-left:-500px;
+    position: absolute;
+    width: 1000px;
+    text-align: center;
+    z-index: 2;
+}
+.banner .number span{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    /*overflow: hidden;*/
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    text-align: center;
+    background: url(http://www.triumphfamily.com/templets/img/banner_bg01.png) no-repeat center bottom;
+    margin:0 7px;
+    vertical-align: top;
+}
+.banner .number span i{
+	display: inline-block;
+	font-style: normal;
+	font-size: 48px;
+	font-family: "宋体";
+	background: url(http://www.triumphfamily.com/templets/img/banner_bg03.png) no-repeat center;
+	width: 100%;
+	line-height: 1.2em;
+	display: none;
+}
+.banner .number span.current {
+    background-image: url(http://www.triumphfamily.com/templets/img/banner_bg02.png);
+}
+.banner .number span.current i{
+	display: inline-block;
+}
+.bannertxt{
+	height: 100%;
+	overflow: hidden;
+}
+.bannertxt .txt1{
+	display: block;
+	position: absolute;
+	top: 145px;
+	left: 159px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/*left: -141px;*/
+	top: 45px;
+}
+.bannertxt .txt2{
+	display: block;
+	position: absolute;
+	left: 492px;
+	top: 267px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.bannertxt .txt3{
+font-family:"HYRunYuan-65W";
+font-style:italic;
+width:1080px;
+height:80px;
+line-height:80px;
+text-align:center;
+font-size:32px;
+color:#f2e2cc;
+background:url(http://www.triumphfamily.com/templets/img/gg_bg.png) repeat;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 400px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/*left: 602px;*/
+/*	top: 407px;*/
+}
+
