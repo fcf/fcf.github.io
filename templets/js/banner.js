@@ -4,7 +4,7 @@ $(function(){
         $(this).remove()
         $(".bannertxt .txt1").stop().animate({"opacity": "1", "left": "159px", "top": "145px"}, 1200)
         $(".bannertxt .txt2").stop().animate({"opacity": "1"}, 1200)
-        $(".bannertxt .txt3").stop().animate({"opacity": "1", "left": "0px", "top": "400px"}, 1200, function () {
+        $(".bannertxt .txt3").stop().animate({"opacity": "1", "left": "0px", "top": "300px"}, 1200, function () {
             setTimeout(function(){delayURL()},400)
         })
         $(".banner ul li").eq(0).css("display","block").fadeIn(600);
@@ -52,7 +52,7 @@ $(function(){
         function reanimate(){
             $(".bannertxt .txt1").stop().css({"opacity": "0", "top": "45px"}, 1)
             $(".bannertxt .txt2").stop().css({"opacity": "0"}, 1)
-            $(".bannertxt .txt3").stop().css({"opacity": "0","top":"400px"}, 1)
+            $(".bannertxt .txt3").stop().css({"opacity": "0","top":"300px"}, 1)
         }
         function newanimate(index){
             $(".banner ul li").eq(index).find(".bannertxt .txt1").animate({
@@ -73,22 +73,22 @@ $(function(){
 	function myShow(){
         var div='<div class="wbb"> <div class="kd"></div> </div> <div class="wdn"><span>0</span>℃</div>'
         if(i!=0){
-          
+
             $(".wbb").remove();
             $(".wdn").remove();
         }
         else{
             $(".ret").html(div)
-       
+
 			delayURL()
-            
+
         }
 		$(".banner ul li").eq(i).stop(true,true).fadeIn(2000).siblings("li").fadeOut(2000);
 		$(".banner .number span").eq(i).addClass("on").siblings("span").removeClass("on");
 	}
-	
+
 	//滑入停止动画，滑出开始动画
-	
+
 		  $(".bannertxt .txt1").stop().animate({"opacity": "0", "top": "245px"}, 1)
             $(".bannertxt .txt2").stop().animate({"opacity": "0"}, 1)
             $(".bannertxt .txt3").stop().animate({"opacity": "0","top":"607px"}, 1,function(){

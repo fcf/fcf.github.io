@@ -316,6 +316,8 @@
 
     .foot_left img.flogo {
         height: 60px !important;
+        position: relative;
+        left: -8px;
     }
 
     .foot_left p {

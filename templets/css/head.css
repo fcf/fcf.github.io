@@ -163,11 +163,11 @@ line-height:80px;
 text-align:center;
 font-size:32px;
 color:#f2e2cc;
-background:url(http://www.triumphfamily.com/templets/img/gg_bg.png) repeat;
+background:url(/templets/img/gg_bg.png) repeat;
 	display: block;
 	position: absolute;
 	left: 0px;
-	top: 400px;
+	top: 300px;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	/*left: 602px;*/
