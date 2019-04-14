@@ -27,7 +27,7 @@ body{font-size:12px;font-family:"宋体";font-family:Verdana,Geneva,sans-serif; 
 .col_1{float:left;}
 	.col_1_1{float:left;}
 	.col_1_2{float:right;}
-.col_2{float:right;}
+.col_2{float:right;padding-top: 45px;}
 	.col_2_1{float:left;}
 	.col_2_2{float:right;}
 a{color:#262626;text-decoration:none;}
