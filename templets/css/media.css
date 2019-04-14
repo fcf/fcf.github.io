@@ -356,16 +356,779 @@
         display: none;
     }
 
+    .about_banner {
+        background: url(http://www.triumphfamily.com/templets/img/about_banner.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .new_banner_yw {
+        font-size: 24px;
+    }
+
+    .new_banner_zw {
+        font-size: 24px;
+        line-height: 200%;
+    }
+
+    .page_banner_box {
+        padding-top: 16%;
+    }
+
+
+    .about_main {
+        margin-top: 10%;
+    }
+
+    .about_box1 dt {
+        width: 100%;
+    }
+
+    .about_box1 dt h2 {
+        font-size: 18px;
+        padding: 5% 4%;
+        line-height: 160%;
+    }
+
+    .about_box1 dt p {
+        font-size: 14px;
+        line-height: 160%;
+        padding: 4%;
+    }
+
+    .about_box1 dd {
+        width: 100%;
+    }
+
+    .about_box1 dd img {
+        width: 100%;
+    }
+
+    .about_box2 {
+        padding-top: 5%;
+        line-height: 160%;
+    }
+
+    .about_box2 h2 {
+        font-size: 24px;
+        padding: 5% 4%;
+        line-height: 160%;
+        color: #003e55;
+        text-align: center;
+    }
+
+    .about_box2 dl {
+        width: 92%;
+        padding: 0 4%;
+    }
+
+    .about_box2 dt {
+        width: 100%;
+    }
+
+    .about_box2 dt img {
+        width: 100%;
+    }
+
+    .about_box2 dd {
+        width: 100%;
+        text-align: center;
+        color: #003e55;
+    }
+
+    .about_box3 {
+        padding: 0 4%;
+        line-height: 160%;
+        text-align: center;
+        color: #003e55;
+    }
+
+    .about_box3 p {
+        padding-top: 5%;
+    }
+
+    .about_main2 {
+        display: none;
+    }
+
+    .about_main2_m {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .about_main2_m img {
+        width: 100%;
+    }
+
+    .about_service {
+        margin-top: 10%;
+        width: 92%;
+        padding: 0 4%;
+    }
+
+    .about_service_tit {
+        text-align: center;
+        color: #003e55;
+    }
+
+    .about_service_box {
+        line-height: 160%;
+    }
+
+    .about_service_img {
+        padding-top: 10%;
+    }
+
+    .about_service_img img {
+        width: 100%;
+    }
+
+    .about_team {
+        margin-top: 10%;
+    }
+
+    .about_service_list_mn .list_1mn ul li, .kzjj_main-cen .list_1mn ul li {
+        width: 48%;
+        margin-right: 4%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .about_service_list_mn .list_1mn ul li:nth-child(2n), .kzjj_main-cen .list_1mn ul li:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .about_service_list_mn .list_1mn ul li img, .kzjj_main-cen .list_1mn ul li img {
+        width: 100%;
+    }
+
+    .about_team_main {
+        display: none;
+    }
+
+    .about_team_main_m {
+        display: block;
+        width: 90%;
+        overflow: hidden;
+        margin: 5% 0;
+        padding: 0 5%;
+    }
+
+    .about_team_main_m ul {
+        width: 100%;
+    }
+
+    .about_team_main_m ul li {
+        width: 100%;
+        float: left;
+        margin-bottom: 2%;
+    }
+
+    .about_team_main_m ul li .picbox {
+        width: 44%;
+        position: relative;
+        height: 0;
+        padding-bottom: 47%;
+        float: left;
+    }
+
+    .about_team_main_m ul li .picbox img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .about_team_main_m ul li .info {
+        float: right;
+        width: 54%;
+    }
+
+    .about_team_main_m ul li .info h2 {
+        width: 100%;
+        float: left;
+        font-size: 18px;
+        color: #003e55;
+        font-weight: normal;
+    }
+
+    .about_team_main_m ul li .info i {
+        width: 100%;
+        float: left;
+        font-size: 16px;
+        color: #003e55;
+        line-height: 140%;
+        font-style: normal;
+    }
+
+    .about_team_main_m ul li .info p {
+        width: 100%;
+        float: left;
+        font-size: 14px;
+        color: #555555;
+        line-height: 140%;
+        width: 100%;
+        float: left;
+    }
+
 
     .mheader {
         display: block;
     }
 
+    .sfo_del_banner {
+        background: url(http://www.triumphfamily.com/templets/img/banner_sfo.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .sfo_del_banner .new_banner_yw {
+        font-size: 18px;
+    }
+
+    .kzjj_main {
+        margin-top: 10%;
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .sfo_main_tittle h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .sfo_main_tittle p {
+        font-size: 14px;
+        line-height: 180%;
+    }
+
+    .sfo_main_box1 {
+        padding-top: 5%;
+    }
+
+    .sfo_main_box1 h2 {
+        text-align: center;
+    }
+
+    .sfo_main_box1 .w584 {
+        width: 100%;
+    }
+
+    .sfo_main_box1 .w473 {
+        width: 100%;
+    }
+
+    .sfo_main_box1 .w473 img {
+        width: 100%;
+    }
+
+    .sfo_main_box1 p {
+        padding: 0;
+        line-height: 180%;
+        padding-top: 3%;
+    }
+
+    .sfo_main_box1 p b {
+        font-size: 20px;
+    }
+
+    .title_kzjj1 h1 span {
+        font-size: 14px;
+        padding: 2% 0;
+        width: 100%;
+        display: block;
+    }
+
+    .kzjj_main-cen .title_kzjj1 {
+        padding-bottom: 5%;
+    }
+
+    .kzjj_main-cen .title_kzjj1 img {
+        width: 100%;
+        padding-top: 5%;
+    }
+
+
+    .jzccgh_banner {
+        background: url(http://www.triumphfamily.com/templets/img/jzccgh_banner.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .jzccgh_banner .new_banner_yw {
+        font-size: 18px;
+    }
+
+    .jzcfgl_top {
+        margin-top: 10%;
+    }
+
+    .jzcfgl_top .w326 {
+        width: 100%;
+    }
+
+    .jzcfgl_top .w754 {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .jzcfgl_top_icon {
+        padding-top: 2%;
+    }
+
+    .jzcfgl_top .w326 img {
+        width: 30%;
+    }
+
+    .jzcfgl_top_box h2 {
+        text-align: center;
+        padding: 2% 0 0;
+        color: #003e55;
+    }
+
+    .jzcfgl_top_box p {
+        padding-top: 5%;
+        line-height: 160%;
+        color: #003e55;
+    }
+
+    .Importance {
+        margin-top: 10%;
+    }
+
+    .Importance .im_1 {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 4%;
+    }
+
+    .about_service .sfgh {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_service .sfgh_pic {
+        float: left;
+        margin-top: 0;
+    }
+
+    .about_service .sfgh_txt {
+        float: left;
+        line-height: 160%;
+        width: 100%;
+        padding-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .about_service img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about_service .sfgh1 {
+        text-align: center;
+        width: 100%;
+        float: left;
+        border-bottom: 0 none;
+    }
+
+    .about_service .sfgh span {
+        font-size: 16px;
+    }
+
+    .about_service .sfgh1 span {
+        font-size: 16px;
+    }
+
+    .jzcfgl_banner {
+        background: url(../img/jzcfgl_banner.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .jzcfgl_banner .new_banner_yw {
+        font-size: 18px;
+    }
+
+    .jzccgh_del_banner {
+        background: url(http://www.triumphfamily.com/templets/img/banner_kzjj.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .jzccgh_del_banner .new_banner_yw {
+        font-size: 18px;
+    }
+
+    .kzjj_main .w331 {
+        max-width: 331px;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .kzjj_main .w331 img {
+        width: 100%;
+    }
+
+    .kzjj_top_box h2 {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .kzjj_main .w700 {
+        width: 100%;
+    }
+
+    .kzjj_top_box p {
+        line-height: 180%;
+    }
+
+    .kzjj_main .w456 {
+        width: 100%;
+    }
+
+    .kzjj_main .w553 {
+        width: 100%;
+    }
+
+    .kzjj_main-cen .title_kzjj1 p {
+        padding-top: 5%;
+    }
+
+    .jzswfw_banner {
+        background: url(../img/decheng/decheng_jzswfw_banner.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .jzswfw_banner .new_banner_yw {
+        font-size: 18px;
+    }
+
+    .jzyjy_banner {
+        background: url(http://www.triumphfamily.com/templets/img/jzyjy_banner.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .jzyjy_banner .new_banner_yw {
+        font-size: 18px;
+    }
+
+    .jzbgsjs_banner {
+        background: url(http://www.triumphfamily.com/templets/img/jzbgsjs_banner.jpg) no-repeat scroll center center / auto 100%;
+        padding-bottom: 53.125%;
+        height: 0;
+    }
+
+    .jzbgsjs_banner .new_banner_yw {
+        font-size: 18px;
+    }
+
+    .contact_map {
+        height: 347px;
+    }
+
+    .contact_map iframe {
+        height: 347px;
+    }
 
     .w1213 {
         width: 100%;
     }
+
+    .contact_us {
+        margin-top: 5%;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .contact_us h1 {
+        text-align: center;
+        color: #003e55;
+    }
+
+    .contact_us .w600 {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .mn1 {
+        margin-top: 5%;
+    }
+
+    .mn1 .Input1 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mn1 .Input2 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mn1 .but_ok {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .contact_us_right {
+        width: 94%;
+        margin-top: 5%;
+        padding: 0 3%;
+    }
+
+    .contact_us_right h1 {
+        text-align: center;
+        color: #003e55;
+    }
+
+    .contact_us_right img {
+        margin-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+
     .w1190 {
+        width: 100%;
+    }
+
+    .jjj .jz_left {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .jjj .jz_list {
+        text-align: center;
+    }
+
+    .jjj .jz_left h1 {
+        width: auto;
+        text-align: center;
+        display: inline-block;
+        border-bottom: 0 none;
+    }
+
+    .jjj .jz_left ul {
+        margin-top: 0%;
+        padding: 2% 0;
+        border-top: 1px solid #a0a0a0;
+        border-bottom: 1px solid #a0a0a0;
+        display: none;
+    }
+
+    .jjj .jz_left ul li {
+        display: inline-block;
+    }
+
+    .jjj .jz_right1 {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .jjj .jz_right1 .ul_div ul {
+        width: 100%;
+        border-top: 1px solid #ddd;
+        padding-bottom: 0;
+        height: auto;
+    }
+
+    .jjj .jz_right1 .ul_div ul li {
+        border-right: 0 none;
+        width: 25%;
+        height: auto;
+        line-height: auto;
+    }
+
+    .jjj .jz_right1 .ul_div ul li a {
+        display: inline-block;
+        padding: 10px 0;
+    }
+
+    .jz_right1 .ul_div ul li .hover {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .jjj .jz_right1 .ul_div ul li a:hover {
+        color: #76341c;
+        font-size: 18px;
+    }
+
+    .jjj .list_mn {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .jjj .jz_right1 .list_mn dl {
+        float: left;
+    }
+
+    .jjj .jz_right1 .list_mn dl dt {
+        position: relative;
+        width: 32.5%;
+        float: left;
+        height: 0;
+        padding-bottom: 30%;
+    }
+
+    .jjj .jz_right1 .list_mn dl dt img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .jjj .jz_right1 .list_mn dl dd {
+        width: 65%;
+        float: right;
+        padding-bottom: 0;
+        border-bottom: 0 none;
+    }
+
+    .jjj .jz_right1 .list_mn dl dd h1 {
+        font-size: 16px;
+        line-height: 20px;
+        height: 40px;
+        overflow: hidden;
+        font-weight: normal;
+    }
+
+    .jjj .jz_right1 .list_mn dl dd p {
+        font-size: 13px;
+        color: #4e4e4e;
+        line-height: 22px;
+        height: 66px;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+    .jjj .jz_right1 .list_mn dl dd h2 {
+        display: none;
+    }
+
+    .page_mn {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .page_mn ul {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .page_mn ul li {
+        padding: 3px 6px;
+    }
+
+    .jjj .video_list {
+        margin-top: 10%;
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .jjj .video_list h1 {
+        text-align: center;
+    }
+
+    .jjj .video_list dl {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        margin-top: 5%;
+        margin-right: 0;
+    }
+
+    .video_list dl dt {
+        width: 100%;
+        height: 0;
+        padding-bottom: 46.2%;
+        position: relative;
+    }
+
+    .video_list dl dt img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .video_list dl dd {
+        width: 100%;
+    }
+
+    .txt-two1 {
+        width: 100%;
+        height: 0;
+        padding-bottom: 46.2%;
+        margin-top: 0;
+    }
+
+    .detail_contant {
+        padding: 4%;
+    }
+
+    .detail_contant .huhu {
+        font-size: 20px;
+        line-height: 140%;
+        padding: 0;
+        margin: 4% 0;
+    }
+
+    .new_list_detail_box {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .page_next_mn .pull-left, .page_next_mn .pull-right {
+        padding: 0;
+        font-size: 13px;
+        width: 100%;
+        text-align: left;
+        text-indent: 10px;
+        margin-bottom: 10px;
+    }
+
+    .office_about .w550 {
+        width: 100%;
+    }
+
+    .office_about h1 {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .office_about {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    .office_about p {
+        line-height: 140%;
+    }
+
+    .office_pic1 {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .office_main2 {
+        display: none;
+    }
+
+    .office_main2_m {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .office_main2_m img {
         width: 100%;
     }
 
@@ -552,8 +1315,96 @@
         opacity: 1;
     }
 
+    .login_main {
+        padding-top: 38px;
+        height: 462px;
+    }
 
+    .login_from {
+        float: none;
+        margin: 0 auto 0;
+    }
 
+    .ny_body {
+        width: 94%;
+        padding: 0 3%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
+    .ny_body .member_left {
+        padding: 0;
+    }
 
+    .ny_body .member_left h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .member_hyzx_tit img {
+        max-width: 100%
+    }
+
+    .member_left_list_zc label em {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
+        float: left;
+    }
+
+    .member_left_list_zc .member_input {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .member_left_list_zc span {
+        width: 100%;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .ny_body .main_body_left {
+        padding-left: 0;
+    }
+
+    .ny_body .w680 {
+        width: 100%;
+    }
+
+    #membercon {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .case-list-wrap ul li {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        margin: 0 0;
+        position: relative;
+    }
+
+    .thematic-activities-wrap{
+        width: 100%;
+        margin: 2.6% auto;
+        text-align: center;
+        padding: 2% 0 0% 0;
+    }
+
+    .thematic-activities-wrap ul li {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        margin: 0 5% 5% 0;
+        position: relative;
+        background-color: #F8F8F8;
+    }
 }

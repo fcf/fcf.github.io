@@ -64,7 +64,7 @@ $(function(){
             },1000);
             $(".banner ul li").eq(index).find(".bannertxt .txt3").animate({
                 "opacity":"1",
-                "top": "400px"
+                "top": "300px"
             },1000);
         }
     })
