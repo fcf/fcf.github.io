@@ -1,0 +1,2916 @@
+*{ margin: 0; padding: 0;-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; }
+img{ border: none; outline: none;}
+a { outline:none;}
+/*鎸夐挳*/
+a.button{
+	display: inline-block;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	font-size: 18px;
+	padding: 10px 40px;
+	cursor: pointer;
+	text-decoration: none;
+}
+/*鎸夐挳 妫曡壊*/
+a.button.brown{
+	background-color: #CD934F;
+	color: #fff;
+}
+a.button.brown:hover{
+	background-color: #b88446;
+}
+a.button.brown:active{
+	background-color: #CD934F;
+}
+/*鎸夐挳 鐧藉簳鐏拌竟*/
+a.button.white{
+	background-color: transparent;
+	border: 1px solid #999999;
+}
+a.button.white:hover{
+	background-color: #CD934F;
+	border: 1px solid #CD934F;
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/more-white.png);
+}
+a.button.white:active{
+	background-color: #b88446;
+	border: 1px solid #b88446;
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/more-white.png);
+}
+/*鎸夐挳 鍦嗚*/
+a.button.fillet{
+	border-radius: 5px;
+}
+/*鎸夐挳 鐧借壊MORE*/
+a.button.more-white{
+	width:80px;
+	height: 40px;
+	padding: 0;
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/more-white.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+}
+/*鎸夐挳 鐏拌壊MORE*/
+a.button.more-gray{
+	width:80px;
+	height: 30px;
+	padding: 0;
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/more-gray.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+}
+/*鎸夐挳 VIP-MORE*/
+a.button.vip-more{
+	text-align:left;
+	font-size: 14px;
+	color: #fff;
+	width:300px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 0 0 20px;
+	background-color: #CD934F;
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/more-white.png);
+	background-repeat: no-repeat;
+	background-position: 220px center;
+	background-size: auto;
+}
+a.button.vip-more:hover{
+	background-color: #b88446;
+}
+a.button.vip-more:active{
+	background-color: #CD934F;
+}
+a.button.gray{
+	background-color: #434343;
+	color: #fff;
+}
+a.button.gray:hover{
+	background-color: #343434;
+}
+a.button.gray:active{
+	background-color: #434343;
+}
+/*鎻愪氦鎸夐挳*/
+input[type="submit"].button{
+	display: inline-block;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	font-size: 18px;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+input[type="submit"].brown{
+	background-color: #CD934F;
+	color: #fff;
+}
+input[type="submit"].brown:hover{
+	background-color: #b88446;
+}
+input[type="submit"].brown:active{
+	background-color: #CD934F;
+}
+input[type="submit"].fillet{
+	border-radius: 5px;
+}
+
+
+/*杈撳叆妗�*/
+input[type="text"], input[type="password"]{
+	border: none;
+	outline: none;
+	border-bottom:1px solid #ada9a7;
+	padding: 10px 0;
+	margin: 0 0 18px 0;
+	background-color:transparent;
+	color: #C9C9C9;
+}
+input[type="text"].fillet, input[type="password"].fillet{
+	border-radius: 5px;
+}
+input[type="text"].long, input[type="password"].long{
+	width: 400px;
+	font-size:14px;
+	margin: 16px 0;
+}
+input[type="text"].short, input[type="password"].short{
+	width: 210px;
+	font-size:16px;
+}
+input[type="text"].white, input[type="password"].white{
+	border: 1px solid #e6e6e6;
+	outline: none;
+	padding: 0 10px;
+	margin: 0 0 18px 0;
+	background-color: #fff;
+	color: #666;
+	font-size: 16px;
+	height: 48px;
+	line-height: 48px;
+}
+input[type="text"].translucent, input[type="password"].translucent{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/input-bg.png) repeat ;
+	border: none;
+	padding: 15px 10px;
+	width: 370px;
+	margin: 8px 0 26px 0;
+	font-size: 14px;
+	border-radius: 4px;
+}
+input[type="text"].name, input[type="password"].name{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/icon-name.png) no-repeat right center;
+	background-size: auto;
+}
+input[type="text"].nameGray, input[type="password"].nameGray{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/icon-name2.png) no-repeat right center;
+	background-size: auto;
+}
+input[type="text"].tel, input[type="password"].tel{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/icon-tel.png) no-repeat right center;
+	background-size: auto;
+}
+input[type="text"].idCard, input[type="password"].idCard{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/icon-idCard.png) no-repeat right center;
+	background-size: auto;
+}
+input[type="text"].mobile, input[type="password"].mobile{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/icon-mobile.png) no-repeat right center;
+	background-size: auto;
+}
+input[type="text"].code, input[type="password"].code{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/icon-code.png) no-repeat right center;
+	background-size: auto;
+}
+
+
+
+
+/*閿欒鎻愮ず*/
+.error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 0 0 0 0 !important;
+	float: left;
+	padding: 0 105px;
+	height: 16px !important;
+	line-height: 16px !important;
+}
+.error-bgImg{
+
+}
+
+/*瀵艰埅鏍�*/
+.header-tab{
+	height: 106px;
+	width: 1240px;
+	margin: 0 auto;
+	text-align:right;
+	color: #666;
+	font-size: 14px;
+	background:url(http://www.springwealth.com.cn/Public/Home/images/logo.png) no-repeat left center;
+	background-size: auto;
+}
+.header-tab img{
+	display:inline-block;
+}
+.header-tab ul{
+	list-style: none;
+	display:inline-block;
+
+}
+.header-tab ul li{
+	height: 106px;
+	line-height: 106px;
+	display:inline-block;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/head-tab-line.png) no-repeat right center;
+	background-size: auto;
+	padding: 0 12px;
+	float: left;
+	text-align: center !important;
+	margin: 0;
+}
+.header-tab ul li a{
+	font-size:14px;
+	display: inline-block;
+	height: 98px;
+	line-height: 98px;
+	text-decoration: none;
+	color: #666;
+	padding: 0 21px;
+	border-bottom: 4px solid #fff;
+	margin: 0;
+}
+.header-tab ul li.on a{
+	border-bottom: 4px solid #cd934f;
+}
+.header-tab ul li:hover a{
+	border-bottom: 4px solid #cd934f;
+}
+.header-tab ul li:last-child{
+	background: none;
+}
+.header-tab ul li div{
+	height: auto !important;
+	line-height: normal !important;
+	position: relative;
+	background-color: #fff;
+	padding: 14px 0 20px 0;
+	text-align: center !important;
+	display: none;
+	z-index: 10;
+}
+.header-tab ul li div a{
+	position: relative;
+	display: inline-block;
+	width: 72%;
+	margin: 0 5%;
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	border: none !important;
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/gray-line.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-size: 1px 1px;
+	padding: 0 0 0 0;
+	font-size: 14px !important;
+	float: none;
+}
+.header-tab ul li div a.on{
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/brown-line.png);
+	color: #cd934f;
+}
+.header-tab ul li div a:hover{
+	background-image: url(http://www.springwealth.com.cn/Public/Home/images/brown-line.png);
+	color: #cd934f;
+}
+
+/*棰勭害鏍�*/
+.appointment-cont{
+	width: 100%;
+	height: 700px;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/banner.png) no-repeat center top;
+	background-size: 100% auto;
+}
+.appointment-wrap{
+	width: 1240px;
+	height: 650px;
+	margin: 0 auto;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/banner-zi.png) no-repeat 40px center;
+	background-size: auto;
+	text-align: right;
+}
+.appointment-wrap .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 0 0 15px 0 !important;
+	float: none;
+	padding: 0 25px;
+	height: 16px !important;
+	line-height: 16px !important;
+	display: block !important;
+}
+.appointment-wrap div:first-child{
+	text-align: center;
+	width: 350px;
+	height: 255px;
+	margin: 217px 0 ;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/white-bg.png) repeat;
+	border-radius: 5px;
+	float: right;
+	color: #feffff;
+}
+.appointment-wrap div:first-child p{
+	margin: 15px 0;
+}
+.appointment-wrap div:first-child input[type="text"]{
+	width: 300px !important;
+}
+.appointment-wrap div:first-child + div{
+	text-align: center;
+	width: 140px;
+	height: 215px;
+	margin: 217px 10px ;
+	color: #feffff;
+	float: right;
+	font-size: 18px;
+}
+.appointment-wrap div:first-child + div p{
+	background: url(http://www.springwealth.com.cn/Public/Home/images/white-bg.png) repeat;
+	border-radius: 5px;
+	margin: 0 0 5px 0;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+.appointment-wrap div:first-child input:nth-child(3){
+	margin: 0 0 10px 0;
+}
+.appointment-wrap div:first-child span{
+	width: 210px !important;
+	margin: 0 0 10px 0;
+}
+
+/*鍏充簬鎴戜滑鏍�*/
+.aboutUs-wrap{
+	background:#FCFCFC; width: 1240px; position:relative; margin: -50px auto 145px auto;
+}
+.aboutUs-wrap div:first-child{
+	display:inline-block;
+	width: 600px;
+	height: 440px;
+	margin: 30px;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/about-img.png) no-repeat left top;
+	background-size: 100% auto;
+}
+.aboutUs-wrap div:first-child + div{
+	display:inline-block;width: 500px; margin: 40px 0 0 15px; text-align:left; position:absolute;
+}
+.aboutUs-wrap div:first-child + div p{
+	font-size:14px; color:#999; line-height: 25px; text-indent:20px; margin: 20px 0;
+}
+.aboutUs-wrap div:first-child + div p:first-child + p{
+	font-size:18px; color:#666; margin: 30px 0 0 0;text-indent: 0;line-height: none !important;
+}
+.aboutUs-wrap div:first-child + div ul{
+	list-style-type: none; color:#666; font-size:14px; line-height: 25px;
+}
+.aboutUs-wrap div:first-child + div ul li span{
+	display: inline-block; background-color:#666; width:10px; height: 10px; border-radius:50px; margin:0 6px 0 0;
+}
+.aboutUs-wrap a{
+	position:absolute; bottom: 0; right:0;
+}
+.aboutUs-wrap .p-title{
+	text-indent:0 !important;
+	font-size: 18px !important;
+	color: #666 !important;
+	margin: 30px 0 0 0;
+}
+
+/*绮鹃€夐」鐩爮*/
+.projects-cont{
+	width: 100%;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/projects.png) no-repeat center bottom;
+	background-size: 100% auto;
+	text-align: center;
+	margin: 0 0 165px 0;
+}
+.projects-title{
+	width: 1240px;
+	margin: 0 auto 70px auto;
+	text-align: center;
+}
+.projects-title p{
+	font-size:18px; color:#666; margin: 30px 0 0 0;
+}
+.projects-wrap{
+	width: 1240px;
+	height: 600px;
+	background:#FCFCFC;
+	margin: 0 auto;
+	text-align:left;
+}
+.projects-form-banner{
+	display: inline-block;
+	width: 630px;
+	height: 600px;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/img-login.png) no-repeat left top;
+	background-size: 100% auto;
+}
+.projects-form{
+	width: 600px;
+	height: 600px;
+	display: inline-block;
+	position:absolute;
+	text-align:center;
+}
+.projects-form ul{
+	width:100%;
+	list-style: none;
+	text-align:center;
+	margin: 55px 0 20px 0;
+}
+.projects-form ul li{
+	display: inline-block;
+	padding: 20px 30px;
+	font-size: 18px;
+}
+.projects-form ul li a{
+	text-decoration: none;
+	padding: 10px 0;
+	color: #666;
+	border-bottom: 2px solid #FCFCFC;
+	cursor: pointer;
+}
+.projects-form ul li a.on{
+	color: #cd934f;
+	border-bottom: 2px solid #cd934f;
+}
+.projects-form ul li a:hover{
+	color: #b88446;
+}
+.projects-form ul li a:active{
+	color: #cd934f;
+}
+.projects-form input[type="submit"]{
+	margin: 20px 0 30px 0;
+	padding: 10px 60px;
+}
+.projects-form span{
+	margin: 20px 0;
+}
+.projects-form-login{
+	width: 610px;
+	display: inline-block;
+}
+.projects-form-login .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 0 0 0 0 !important;
+	float: left;
+	padding: 0 105px;
+	height: 16px !important;
+	line-height: 16px !important;
+}
+.projects-form-register .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 20px 0 0 0 !important;
+	float: left;
+	padding: 0 104px;
+	height: 16px !important;
+	line-height: 16px !important;
+}
+.projects-form-register{
+	width: 610px;
+	display: inline-block;
+	display: none;
+	position: relative;
+}
+.projects-form-register .get-code{
+	display: inline-block;
+	text-decoration: none;
+	position: absolute;
+	color: #cc0000;
+	font-size:14px;
+	margin: 25px 0 0 0;
+	right: 90px;
+	width: 100px;
+}
+.projects-form-register .get-code:hover{
+	color: #9B0000;
+	cursor: pointer;
+}
+.projects-form-register .get-code:active{
+	color: #cc0000;
+}
+.projects-form-register p{
+	font-size: 12px;
+	color: #cd934f;
+	text-align: left;
+}
+.projects-form-register p{
+	width: 400px;
+	font-size: 12px;
+	color: #cd934f;
+	text-align: left;
+	display: inline-block;
+	margin: 0 auto;
+}
+.projects-form-register p.ls{
+	font-size: 12px;
+	color: #959595;
+	text-align: left;
+}
+.projects-form-register p.ls input[type="checkbox"]{
+	float: left;
+	margin: 0 5px 0 0 ;
+}
+.projects-form-register p.ls a{
+	text-decoration: none;
+	color: #cd934f;
+}
+.projects-form-register p.ls a:hover{
+	color: #b88446;
+}
+.projects-form-register p.ls a:active{
+	color: #cd934f;
+}
+.projects-form-register input[type="submit"]{
+	margin: 10px 0 10px 0;
+}
+/*swiper*/
+.device {
+	width: 1240px;
+	height: 600px;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.device .arrow-left {
+	background: url(http://www.springwealth.com.cn/Public/Home/images/arrows1.png) no-repeat left top;
+	position: absolute;
+	left: -50px;
+	top: 50%;
+	margin-top: -15px;
+	width: 17px;
+	height: 30px;
+}
+.device .arrow-left:hover {
+	background: url(http://www.springwealth.com.cn/Public/Home/images/arrows2.png) no-repeat left top;
+}
+.device .arrow-right {
+	background: url(http://www.springwealth.com.cn/Public/Home/images/arrows1.png) no-repeat left bottom;
+	position: absolute;
+	right: -50px;
+	top: 50%;
+	margin-top: -15px;
+	width: 17px;
+	height: 30px;
+}
+.device .arrow-right:hover {
+	background: url(http://www.springwealth.com.cn/Public/Home/images/arrows2.png) no-repeat left bottom;
+}
+.swiper-container {
+	height: 600px;
+	width: 1240px;
+	background: #fcfcfc;
+}
+.swiper-slide:nth-child(2n){
+	background: #f8f8f8;
+}
+.content-slide {
+	padding: 0;
+	color: #999;
+	font-size: 14px;
+	text-align:left;
+	height: 600px;
+}
+.content-slide a{
+	text-decoration: none;
+	color: #999;
+}
+.content-slide p {
+	font-size: 14px;
+	display:inline-block;
+	width: 90%;
+	margin: 0 5%;
+	line-height: 22px;
+}
+.content-slide p:nth-child(2) {
+	margin: 25px 5% 0 5%;
+}
+.title {
+	font-size: 24px !important;
+	margin: 10px 5% 15px 5% !important;
+	color: #666;
+	font-weight: bold;
+}
+
+
+
+/*鏂伴椈*/
+.news-cont{
+	height: 830px;
+	width: 1240px;
+	text-align: right;
+	margin: 0 auto 165px auto;
+}
+.news-banner{
+	display:inline-block;
+	height: 830px;
+	width: 460px;
+	text-align: center;
+	margin: 0;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/news-banner.png) no-repeat right center;
+	background-size: auto;
+}
+.news-banner p{
+	font-size: 18px;
+	color: #666;
+	text-align: left;
+	margin: 220px 0 0 0;
+}
+.news-list{
+	display:inline-block;
+	height: 830px;
+	width: 700px;
+	text-align: left;
+	margin: 0 0 0 80px;
+	float:right;
+}
+.news-list ul{
+	list-style: none;
+}
+.news-list ul li{
+	background:#FCFCFC;
+	height: 200px;
+	margin: 0 0 10px 0;
+	position: relative;
+	border: 1px solid #FCFCFC;
+}
+.news-list ul li:first-child + li + li + li{
+	margin: 0;
+}
+.news-list ul li div:first-child{
+	display:inline-block;
+	width: 510px;
+	margin: 30px 0 0 30px;
+
+}
+.news-list ul li div:first-child + div{
+	display:inline-block;
+	width: 100px;
+	margin: 30px 30px 0 0;
+	float: right;
+	color: #666;
+	text-align: center;
+}
+.news-list ul li div:first-child p:first-child{
+	font-size: 18px;
+	height: 22px;
+	color: #666;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.news-list ul li div:first-child p:first-child a.tl{
+	position: relative !important;
+	bottom: 0 !important;
+	text-decoration: none !important;
+	color: #666;
+}
+.news-list ul li div:first-child p:first-child + p{
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0 0 0 0;
+	color: #999;
+	height: 66px;
+	width: 100%;
+	overflow: hidden;
+}
+.news-list ul li div:first-child + div div{
+	margin: 0 0 0 0;
+	float: none;
+}
+.news-list ul li div:first-child + div strong{
+	font-size:34px;
+}
+.news-list ul li div:first-child + div span{
+	display: inline-block;
+	height: 30px;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 0 0 0 3px;
+}
+.news-list ul li div:first-child a{
+	position: absolute;
+	bottom: 20px;
+}
+.news-list ul li:hover{
+	cursor: pointer;
+	box-shadow: 0 0 10px #848484;
+	border: 1px solid #ccc;
+}
+.news-list ul li:hover div:first-child p:first-child{
+	color: #cd934f;
+}
+.news-list ul li:hover div:first-child p:first-child a.tl{
+	color: #cd934f;
+}
+
+
+
+/*璐靛淇变箰閮�*/
+.vip-cont{
+	height: 800px;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 165px 0;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/vip-bg.png) no-repeat center center;
+	background-size: auto 100%;
+	color: #fff;
+}
+.about-vip-cont{
+	width: 100%;
+	text-align: center;
+	margin: 0 0 145px 0;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/about-bg.png) no-repeat center center;
+	background-size: auto 100%;
+	color: #fff;
+	padding: 154px 0 80px 0;
+}
+.vip-title{
+	padding: 95px 0 90px 0;
+}
+.vip-title p{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	margin: 25px 0 0 0;
+}
+.vip-wrap{
+	width: 1240px;
+	height: 400px;
+	margin: 0 auto;
+	text-align: right;
+}
+.vip-txt{
+	float:left;
+	display: inline-block;
+	width:500px;
+	height: 350px;
+	text-align:left;
+	margin: 30px 0 0 0;
+}
+.vip-txt ul{
+	list-style: none;
+}
+.vip-txt ul li{
+	margin: 0 0 60px 0;
+	position: relative;
+}
+.vip-txt ul li span{
+	display: inline-block;
+	background: #cd934f;
+	width: 10px;
+	height: 50px;
+	margin: 0 20px 0 0 ;
+}
+.vip-txt ul li div{
+	position: absolute;
+	display: inline-block;
+	height: 50px;
+	margin: 0 0 0 0 ;
+}
+.vip-txt ul li div b{
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0 0 10px 0 ;
+}
+.vip-txt ul li div h3{
+	font-size: 24px;
+	color: #cd934f;
+}
+.vip-form{
+	display: inline-block;width:500px; height: 350px; float:right; text-align:center;
+}
+.vip-form .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 0 0 10px 0 !important;
+	float: none;
+	padding: 0 50px;
+	height: 16px !important;
+	line-height: 16px !important;
+	display: block !important;
+}
+.vip-form p{
+	margin: 25px 0 35px 0;
+	font-size: 18px;
+}
+.vip-form input{
+	font-size: 18px !important;
+}
+.vip-form input[type="submit"]{
+	margin: 15px 0 0 0;
+}
+.vip-form span{
+	margin: 5px 0 0 0;
+}
+.vip-txt-right{
+	display: inline-block;
+	position: relative;
+}
+.vip-txt-right div{
+	display: inline-block;
+	width: 210px;
+	margin: 0 0 0 15px;
+	color:#666;
+	text-align: center;
+	background: #fff;
+	float: right;
+}
+.vip-txt-right div img{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	outline: none;
+	border: none;
+}
+.vip-txt-right div span{
+	display: inline-block;
+	width: 80%;
+	font-size: 14px;
+	text-align: left;
+	margin: 20px 0 10px 0;
+}
+.vip-txt-right div p{
+	text-align: left;
+	display: inline-block;
+	width: 80%;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 0 20px 0;
+}
+
+
+/*璐㈠瘜澶ц鍫� 娉夌瀹朵勘涔愰儴*/
+.forum-club-cont{
+	position: relative;
+	width:1240px; height: 300px; margin:0 auto 100px auto;
+}
+.forum-club-cont div:first-child{
+	width:800px; height: 300px; display:inline-block;
+}
+.forum-club-cont div:first-child + div{
+	height: 300px; display:inline-block; position:absolute; margin: 0 0 0 45px;
+}
+.forum-club-cont div:first-child + div p{
+	font-size: 18px;
+	margin: 30px 0 0 0;
+	color: #666;
+}
+.forum-club-cont div:first-child + div a{
+	position:absolute;
+	bottom: 0;
+	width: 160px;
+}
+
+
+/*椤佃剼*/
+.footer-box{
+	width: 100%;
+	height: 390px;
+	background-color:#F8F8F8;
+	border-top: 2px solid #cd934f;
+}
+.footer-wrap{
+	width: 1240px;
+	height: 390px;
+	margin: 0 auto 0 auto;
+	text-align: right;
+	position:relative;
+}
+.footer-wrap ul{
+	display: inline-block;
+	list-style: none;
+	margin: 80px 0 0 0;
+}
+.footer-wrap ul li{
+	display: inline-block;
+	height: 210px;
+	border-left: 1px solid #e5e5e5;
+	padding: 0 60px;
+	text-align:left;
+	float:left;
+}
+.footer-wrap ul li:first-child{
+	border-left: none;
+}
+.footer-wrap ul li h3{
+	color: #666;
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;
+	margin: 0 0 25px 0;
+}
+.footer-wrap ul li a{
+	display:block;
+	color: #999;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0 0 20px 0;
+}
+.footer-wrap ul li a:hover{
+	color: #cd934f;
+}
+.footer-wrap ul li img{
+	width: 80px;
+	height: 80px;
+	margin: 0;
+}
+.footer-left{
+	width: 300px; display: inline-block; float:left; position:relative;
+}
+.footer-left-title{
+	font-size:16px;background-color:#fff; color:#cd934f; padding: 20px; text-align:left; line-height:22px;
+}
+.footer-left-cont{
+	background-color:#cd934f; padding: 0 0 15px 0;
+}
+.footer-addr-warp{
+	text-align:left;padding: 0 0 0 30px;color:#fff; font-size:14px; margin: 10px 0 10px 0 ;line-height:22px;
+}
+.footer-addr-warp span{
+	display:inline-block; float:left;font-size:14px;
+}
+.footer-addr-warp p{
+	width:170px;display:inline-block;
+}
+.footer-left-cont a{
+	position:absolute;display:inline-block;width: 30px; height: 30px; margin:0; background-color:#cd934f; background-repeat:no-repeat; background-position:center center;
+}
+.footer-left-cont a:hover{
+	background-color:#b88446;
+}
+.footer-left-cont a:active{
+	background-color:#cd934f;
+}
+.footer-left-cont a.weixin{
+	left: 300px;
+	top: 214px;
+	background-image:url(http://www.springwealth.com.cn/Public/Home/images/icon-weixin.png);
+}
+.footer-left-cont a.weibo{
+	left: 300px;
+	top: 246px;
+	background-image:url(http://www.springwealth.com.cn/Public/Home/images/icon-weibo.png);
+}
+.footer-telMap-wrap{
+	display:inline-block; width: 360px;  margin: 20px 0 0 30px; text-align:left; position:relative;
+}
+.footer-telMap-wrap a{
+	display:inline-block;width: 40px; height: 90px; margin: 0 0 0 10px; background-color:#fff; background-image:url(http://www.springwealth.com.cn/Public/Home/images/icon-position.png); background-repeat:no-repeat; background-position:center center; cursor:pointer;
+}
+.footer-telMap-wrap a:hover{
+	background-color:#cd934f; background-image:url(http://www.springwealth.com.cn/Public/Home/images/icon-position-hover.png);
+}
+.footer-tel{
+	background-color: #fff; display:inline-block; width:300px;
+}
+.footer-tel img{
+	display:inline-block; width:50px; height:50px; margin: 20px;
+}
+.footer-tel span{
+	font-size:14px;color:#cd934f; border-left: 1px solid #cd934f; padding: 0 0 0 15px; display:inline-block; text-align:left; position:absolute; margin: 28px 0 0 0;
+}
+.footer-tel span b{
+	display:inline-block;font-size:16px; font-weight:normal; margin: 0 0 5px 0;
+}
+.footer-left-cont img.map{
+	position:absolute; margin-left:86px; top:0; display:none; left: 300px;
+}
+
+/*鍏充簬鎴戜滑*/
+.about-banner{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/about-img-top.png) no-repeat center top; background-size: auto 100%; margin: 0 0 104px 0;
+}
+.about-info{
+	margin: 0 auto 110px auto; width:1240px; height: 390px; background: url(http://www.springwealth.com.cn/Public/Home/images/about-img-title.png) no-repeat 100px center; background-size: auto 100%; position:relative;
+}
+.about-info span{
+	font-size:18px; color:#666; display:inline-block; margin: 122px 0 0 418px; position: absolute;
+}
+.about-info strong{
+	display:block;font-size:18px; color:#333 !important; margin: 0 0 0 0 ;text-align:left; line-height:18px;
+}
+.about-info p{
+	font-size:14px; color:#666; margin: 120px 100px 0 0 ; line-height:28px; width:510px; display:inline-block;text-align:left; float:right;
+}
+.about-company-bottom{
+	width:1240px; margin: 0 auto 155px auto; text-align:center; background:#F8F8F8;
+}
+.about-company-bottom div div{
+	width:50%; display: inline-block;
+}
+.about-company-bottom div .fl{
+	float: left;
+}
+.about-company-bottom div .fr{
+	float: right;
+}
+.about-company-bottom div div strong{
+	display:inline-block; width:80%; text-align:left; font-size:18px; color:#333; margin:80px 0 20px 0;
+}
+.about-company-bottom div div p{
+	display:inline-block; width:80%; text-align:left; font-size:14px; color:#666; line-height:26px;
+}
+.about-company-bottom .str-2{
+	margin:70px 0 20px 0;
+}
+.about-company-bottom .str-3{
+	margin:60px 0 20px 0;
+}
+
+/*鍥㈤槦浠嬬粛*/
+.team-banner{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/team-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 104px 0;
+}
+.team-tab{
+	width: 1240px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+.team-tab span{
+	font-size: 20px;
+	color:#666;
+	font-weight:bold;
+	display: inline-block;
+	margin: 10px 0;
+}
+.team-tab ul{
+	margin: 30px 0 0 0;
+	list-style: none;
+}
+.team-tab ul li{
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+.team-tab ul li a{
+	display: inline-block;
+	text-decoration: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	color: #999;
+}
+.team-tab ul li a:hover{
+	background: #cd934f;
+	border: 1px solid #cd934f;
+	color: #fff;
+}
+.team-tab ul li a.on{
+	background: #cd934f;
+	border: 1px solid #cd934f;
+	color: #fff;
+}
+
+.team-list{
+	width: 1240px;
+	margin: 30px auto 90px auto ;
+}
+.team-list ul{
+	list-style: none;
+}
+.team-list ul li{
+	background: #fafafa;
+	margin: 0 0 30px 0;
+	padding: 50px;
+}
+.team-list ul li div:first-child{
+	display: inline-block;
+	width: 200px;
+	height: 250px;
+	overflow: hidden;
+	margin: 0 30px 0 0;
+	float:left;
+}
+.team-list ul li div:first-child + div{
+	display: inline-block;
+	margin: 0 0 0 0;
+	width: 910px;
+}
+.team-list ul li div:first-child + div p:first-child{
+	color:#333;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 5px 0;
+}
+.team-list ul li div:first-child + div p:first-child + p{
+	color:#666;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 8px 0 0 0;
+}
+.team-list ul li div:first-child + div p:first-child + p + hr{
+	display: inline-block;
+	position: relative;
+	width: 40px;
+	color: #cd934f;
+	background: #cd934f;
+	margin: 0 0 0 0 ;
+	outline: none;
+	box-shadow: none;
+	height: 1px;
+	line-height:1px;
+	border: none;
+}
+.team-list ul li div:first-child + div p:first-child + p + hr + p{
+	color:#999;
+	font-size: 14px;
+	margin: 30px 0;
+	line-height: 26px;
+}
+.team-list ul li div:first-child + div p:first-child + p + hr + p + p{
+	color:#999;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+/*鍔犲叆鎴戜滑*/
+.join-us-banner{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/join-us-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 104px 0;
+}
+.join-us-cont{
+	width: 1240px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+.join-us-cont h1{
+	font-size: 20px;
+	color:#666;
+	font-weight:bold;
+	display: inline-block;
+	margin: 10px 0;
+}
+.join-us-cont ul{
+	list-style: none;
+}
+.join-us-cont ul li{
+	margin: 0 0 0 0;
+	padding: 28px 0 96px 0;
+}
+.join-us-cont ul li div:first-child{
+	display: inline-block;
+	width: 340px;
+	height: 300px;
+	margin: 0 48px 0 0;
+	float: left;
+	text-align: left;
+	border-top: 2px solid #dcdcdc;
+	padding: 28px 0 0 0;
+}
+.join-us-cont ul li div:first-child + div{
+	display: inline-block;
+	margin: 0 0 0 0;
+	width: 850px;
+	text-align: left;
+	border-top: 2px solid #dcdcdc;
+	padding: 28px 0 0 0;
+}
+.join-us-cont ul li div:first-child h2{
+	color: #cd934f;
+	font-weight: normal;
+	line-height: 34px;
+	font-size: 24px;
+	margin: -5px 0 0 0;
+}
+.join-us-cont ul li div:first-child + div h2{
+	color: #161616;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+}
+.join-us-cont ul li div:first-child + div h2:first-child + p + h2{
+	margin: 60px 0 20px 0;
+}
+.join-us-cont ul li div:first-child + div p{
+	color: #666;
+	font-size: 20px;
+	line-height: 28px;
+}
+.join-us-cont ul li div:first-child + div p:first-child + p{
+	margin: 0 0 80px 0;
+}
+.join-us-mail{
+	width: 1240px;
+	height: 220px;
+	margin: 0 auto 164px auto;
+	text-align: center;
+	background:url(http://www.springwealth.com.cn/Public/Home/images/join-us-mail.png) no-repeat center top;
+	background-size: auto 100%;
+	color: #fff;
+}
+.join-us-mail {
+	width: 1240px;
+	height: 220px;
+	margin: 0 auto 164px auto;
+	text-align: center;
+	background:url(http://www.springwealth.com.cn/Public/Home/images/join-us-mail.png) no-repeat center top;
+	background-size: auto 100%;
+	color: #fff;
+}
+.join-us-mail img{
+	margin: 35px 0 0 0;
+}
+.join-us-mail p{
+	font-size:30px;
+	margin: 17px 0 40px 0;
+}
+.join-us-mail span{
+	background: #fff;
+	font-size: 14px;
+	color: #596169;
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	width: 180px;
+}
+
+/*鍔犲叆鎴戜滑*/
+.contact-us-wrap{
+	width: 100%;
+	margin: 0 auto;
+	height: 1715px;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/contact-us-banner.png) no-repeat center top;
+	background-size: auto 630px;
+	text-align: center;
+}
+.contact-us{
+	width: 1240px;
+	height: 630px;
+	margin: 0 auto;
+}
+.contact-us img{
+	margin: 100px 0 0 0;
+}
+.contact-us ul{
+	list-style: none;
+	text-align: center;
+}
+.contact-us ul li{
+	display: inline-block;
+	padding: 0 40px;
+	float: left;
+}
+.contact-us ul li p{
+	color: #fff;
+	font-size: 22px;
+	margin: 45px 0 0 0;
+}
+.contact-us ul li span{
+	display: inline-block;
+	margin: 10px 0 0 0;
+	color: #fff;
+	font-size: 14px;
+}
+.contact-us ul li:first-child{
+	padding: 0 40px 0 0;
+}
+.contact-us ul li.ls{
+	padding: 0 0 0 40px;
+}
+.contact-us ul li.ls p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 28px;
+}
+.contact-branch{
+	width: 1240px; background:url(http://www.springwealth.com.cn/Public/Home/images/con.jpg) no-repeat center top; background-size: auto 1077px;
+	height:1077px;
+	margin: 0 auto;
+}
+.contact-branch img{
+	height:1077px; 	 border:0px;
+}
+
+/*鏅硥鍔ㄦ€�*/
+.news-banner-top{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/news-top-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 104px 0;
+}
+.news-tab{
+	width: 1240px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+.news-tab span{
+	font-size: 20px;
+	color:#666;
+	font-weight:bold;
+	display: inline-block;
+	margin: 10px 0;
+}
+.news-tab ul{
+	margin: 30px 0 0 0;
+	list-style: none;
+}
+.news-tab ul li{
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+.news-tab ul li:first-child{
+	margin: 0 16px 0 0;
+}
+.news-tab ul li a{
+	display: inline-block;
+	text-decoration: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	color: #999;
+}
+.news-tab ul li a:hover{
+	background: #cd934f;
+	border: 1px solid #cd934f;
+	color: #fff;
+}
+.news-tab ul li a.on{
+	background: #cd934f;
+	border: 1px solid #cd934f;
+	color: #fff;
+}
+.news-two{
+	width:100% !important;
+	margin: 0;
+}
+.news-two ul{
+	height: 850px !important;
+}
+.news-two li{
+	display: inline-block;
+	width: 49% !important;
+	margin: 0 0 10px 0.4% !important;
+}
+.news-two ul li div:first-child{
+	width: 440px;
+}
+.activity-wrap{
+	width: 1240px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+.activity-wrap h1{
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	margin: 50px 0 30px 0;
+}
+.activity-wrap p{
+	text-align:left;
+	font-size: 16px;
+	color: #7f7f7f;
+	line-height: 34px;
+}
+.activity-wrap img{
+	width: 100%;
+	margin: 20px 0;
+}
+.activity-form{
+	background: #F7F7F7;
+	padding: 40px;
+	margin: 40px 0;
+	text-align: left;
+}
+.activity-form p{
+	font-size: 16px;
+	color: #b3b3b3;
+	margin: 0 0 5px 0;
+}
+.activity-form p:first-child{
+	font-size: 18px;
+	color: #333;
+	margin: 0 0 10px 0;
+}
+.activity-form input[type="submit"]{
+	padding: 10px 55px;
+	margin: 10px 0 0 0;
+}
+.activity-form .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 0 0 3px 2px !important;
+	float: none;
+	padding: 0 0;
+	height: 16px !important;
+	line-height: 16px !important;
+	display: block !important;
+}
+/*鍔ㄦ€佽鎯�*/
+.news-content-banner{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/news-content-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 104px 0;
+}
+.news-content-wrap{
+	width: 1240px;
+	margin: 0 auto 20px auto;
+}
+.news-content-wrap h2{
+	float: right;
+	width: 80px;
+	border: 1px solid #cd934f;
+	height: 56px;
+	margin: -100px 23px 0 0;
+}
+.news-content-wrap h2 a{
+	padding: 10px 0;
+	display: inline-block;
+	text-decoration: none;
+	color: #cd934f;
+	font-size: 14px;
+	margin: 9px -23px 0 0;
+	background: #fff;
+	float: right;
+}
+.news-content-wrap h2 a:hover{
+	color: #666;
+}
+.news-content-wrap h1{
+	font-size:30px;
+	font-weight: normal;
+	text-align:center;
+	color: #525252;
+	margin: 152px 0 0 0;
+}
+.news-content-wrap h4{
+	font-size:18px;
+	font-weight: normal;
+	color: #686767;
+	margin: 30px 0 0 0;
+	text-align:center;
+}
+.news-content-wrap p{
+	font-size:20px;
+	font-weight: normal;
+	color: #8b8b8b;
+	line-height: 32px;
+}
+.news-content-wrap hr{
+	width: 65px;
+	display: inline-block;
+	height: 6px;
+	background: #cc954f;
+	border: none;
+	box-shadow: none;
+	margin: 100px 0 0 0 ;
+}
+.news-content-wrap a.ls{
+	display: inline-block;
+	text-align: left;
+	text-decoration: none;
+	color: #dbdbdb;
+	font-size: 18px;
+	margin: 35px 0 256px 0;
+}
+.news-content-wrap a.ls:hover{
+	color: #666;
+}
+.news-content-wrap .device {
+	width: 1240px;
+	height: 530px;
+	margin: 40px auto;
+	position: relative;
+}
+.news-content-wrap .swiper-container {
+	width: 1240px;
+	height: 530px;
+}
+.news-content-wrap .pagination {
+	position: absolute;
+	left: 0;
+	text-align: center;
+	bottom:5px;
+	width: 100%;
+	z-index: 1;
+}
+.news-content-wrap .swiper-pagination-bullet {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background: #fff;
+	margin: 0 6px;
+	cursor: pointer;
+	opacity: 1;
+}
+.news-content-wrap .swiper-pagination-bullet-active {
+	background: #cd934f;
+}
+
+/*绮鹃€夐」鐩�*/
+.project-form-wrap{
+	width: 100%;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/project-banner.png) no-repeat center top;
+	background-size: auto 100%;
+	height: 690px;
+	text-align: center;
+}
+.project-form{
+	width: 1240px;
+	margin: 0 auto;
+	text-align: left;
+}
+.project-form a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 40px 0 0 160px;
+	padding: 5px 0;
+	font-size: 18px;
+	color:#ccc;
+}
+.project-form a:hover{
+	border-bottom: 1px solid #cd934f;
+}
+.project-form a.on{
+	border-bottom: 1px solid #cd934f;
+}
+.project-form a:first-child + a{
+	margin: 40px 0 0 35px;
+}
+.project-login-form{
+	display: inline-block;
+	margin: 40px 95px 0 160px;
+}
+.project-login-form p{
+	font-size: 16px;
+	color: #ccc;
+}
+.project-login-form label{
+	color: #999;
+	font-size: 14px;
+	margin: 15px 0 20px 0;
+	display: block;
+}
+.project-login-form label input{
+	float: left;
+	margin: 2px 5px 0 0;
+}
+.project-login-form input[type="submit"]{
+	width: 190px;
+	padding: 14px 40px;
+	margin: 20px 0;
+}
+.project-login-form .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 0 0 10px 0 !important;
+	float: none;
+	padding: 0 0;
+	height: 16px !important;
+	line-height: 16px !important;
+	display: block !important;
+}
+.project-register-form .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 10px 0 0 0 !important;
+	float: none;
+	padding: 0 0;
+	height: 16px !important;
+	line-height: 16px !important;
+	display: block !important;
+}
+.project-register-form{
+	display: inline-block;
+	margin: 40px 95px 0 160px;
+	display: none;
+	position: relative;
+}
+
+.project-register-form .get-code{
+	display: inline-block;
+	text-decoration: none;
+	position: absolute;
+	color: #e3e3e3;
+	font-size: 12px;
+	margin: 18px 0 0 0;
+	right: -20px;
+	width: 100px;
+}
+.project-register-form .get-code:hover{
+	text-decoration: none;
+	color: #fff;
+	border: none;
+}
+.project-register-form input.ls{
+	margin-bottom: 10px;
+}
+.project-register-form p{
+	font-size: 16px;
+	color: #ccc;
+}
+.project-register-form b{
+	color: #999;
+	font-size: 12px;
+	font-weight: normal;
+}
+.project-register-form input[type="submit"]{
+	width: 190px;
+	padding: 14px 40px;
+	margin: 15px 0 10px 0;
+}
+.project-register-form h4{
+	font-size: 12px;
+	color: #ccc;
+	text-align: left;
+	font-weight: normal;
+	margin: 10px 0 0 0;
+}
+.project-register-form h4 input{
+	float: left;
+	margin: 6px 5px 0 0 ;
+}
+.project-register-form h4 a{
+	font-size: 12px;
+	color: #cd934f;
+	margin: 0 0 0 0;
+}
+.project-register-form p.f12 a:hover{
+
+}
+.project-form div.ls{
+	display: inline-block;
+	float: right;
+	margin: 160px 180px 0 0 ;
+}
+.project-form div.ls p{
+	color: #999;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+.project-form div.ls p:first-child{
+	color: #ccc;
+	font-size: 18px;
+	margin: 0 0 20px;
+}
+
+
+.register-agreement{
+	width: 375px;
+	height: 400px;
+	position: absolute;
+	background: url(http://www.springwealth.com.cn/Public/Home/images/agreement-bg.png) repeat;
+	padding: 50px 30px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 32px;
+	top: 0;
+	text-align: center;
+	display: none;
+}
+.register-agreement a.close{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	margin: 0;
+}
+.register-agreement a.close:hover{
+	border: none;
+}
+.register-agreement p{
+	text-align: left;
+}
+.register-agreement p:first-child{
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 0 0 !important;
+}
+.register-agreement hr{
+	width: 35px;
+	display:inline-block;
+	background-color: #cd934f;
+	height: 2px;
+	outline: none;
+	border: none;
+	margin: 5px 0 10px 0;
+	float: left;
+	padding: 0;
+}
+.register-agreement a.button{
+	width: 135px;
+	padding: 10px 0;
+	margin: 13px 0 0 0;
+	font-size: 18px;
+}
+.register-agreement a.button:hover{
+	border: none;
+}
+
+
+
+.project-banner{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/project-banner-1.png) no-repeat center top; background-size: auto 100%; margin: 0 0 55px 0;
+}
+.project-tab{
+	width: 100%;
+	text-align:center;
+	margin: 0 0 35px 0;
+}
+.project-tab ul{
+	margin: 30px 0 0 0;
+	list-style: none;
+}
+.project-tab ul li{
+	display: inline-block;
+	margin: 0 16px 20px 0;
+}
+.project-tab ul li:last-child{
+	margin: 0 0 0 0;
+}
+.project-tab ul li a{
+	display: inline-block;
+	text-decoration: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	color: #999;
+	padding: 0 30px;
+}
+.project-tab ul li a:hover{
+	background: #cd934f;
+	border: 1px solid #cd934f;
+	color: #fff;
+}
+.project-tab ul li a.on{
+	background: #cd934f;
+	border: 1px solid #cd934f;
+	color: #fff;
+}
+.project-cont-xinda{
+	width: 1240px;
+	margin: 0 auto;
+	border-top: 1px solid #ddd;
+	padding: 25px 0;
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+}
+.project-cont-xinda p{
+	line-height: 26px;
+	margin: 0 0 30px 0;
+	text-align: left;
+}
+.project-cont-xinda p i{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	line-height: 8px;
+	border-radius: 100px;
+	background: #999;
+	margin: 0 10px 0 0;
+}
+.project-cont-xinda h1{
+	color: #cd934f;
+	font-size: 19px;
+	margin: 0 0 5px 0;
+	text-align: left;
+}
+.project-cont-xinda h2{
+	color: #666;
+	font-size: 16px;
+	margin: 10px 0;
+	text-align: left;
+}
+.project-cont-xinda img{
+	margin: 0 0 30px 0;
+}
+.project-cont-xinda hr{
+	outline: none;
+	border: none;
+	background: #ddd;
+	height: 1px;
+	margin: 0 0 40px 0;
+}
+.project-cont-xinda ul{
+	font-size: 14px;
+	text-align: left;
+	line-height: 30px;
+}
+.project-cont-xinda b{
+	font-size: 18px;
+	font-weight: normal;
+	color: #999;
+	display: inline-block;
+	width: 95%;
+	margin: 0 2.5% 25px 2.5%;
+	text-align: left;
+}
+.project-cont-xinda b.color333{
+	color: #333 !important;
+	font-weight: bold;
+}
+
+
+.project-cont-xinda table.xinda{
+	width: 95%;
+	margin: 0 2.5% 20px 2.5%;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-top:2px solid #ddd;
+	background:#fff;
+	font-size: 18px;
+}
+.project-cont-xinda table.xinda th, .project-cont-xinda table.xinda td{
+	border-right:2px solid #ddd;
+	border-bottom:2px solid #ddd;
+	padding:20px 0;
+	width: 50%;
+}
+.project-cont-xinda table.xinda tr td:first-child + td{
+	border-right: none;
+}
+
+.project-cont-xinda table.xian{
+	width:80%;
+	margin: 0 10% 20px 10%;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-top:2px solid #ddd;
+	background:#fff;
+	font-size: 18px;
+}
+.project-cont-xinda table.xian td{
+	border-right:2px solid #ddd;
+	border-bottom:2px solid #ddd;
+	padding:20px 0;
+	width: 25% ;
+}
+.project-cont-xinda table.xian tr:first-child td:first-child {
+	border-right: none;
+}
+.project-cont-xinda table.xian tr td:first-child + td + td + td{
+	border-right: none;
+}
+
+
+
+/*缃戠珯鏈嶅姟鍗忚*/
+.agreement-wrap{
+	text-align:center;width: 1240px; margin: 0 auto; background: #F7F7F7; padding: 80px 0 80px 0; color: #333;
+}
+.agreement-wrap h1{
+	text-align:center; font-size:24px; font-weight: normal;
+}
+.agreement-wrap p{
+	display:inline-block; margin: 30px 5%; line-height: 26px; width: 90%; text-align:left; height:750px; overflow-y:scroll;  overflow-style:marquee-block;font-size: 14px;
+}
+.agreement-wrap a{
+	width: 80px;
+	padding: 10px 40px;
+}
+
+
+/*棰勭害鐞嗚储甯�*/
+.appoint-form-wrap{
+	text-align:center;width: 100%; margin: 0 0; background: url(http://www.springwealth.com.cn/Public/Home/images/appoint_banner.png) no-repeat top center; background-size: auto 100%; padding: 110px 0; height:420px;
+}
+.appoint-form-wrap div{
+	border-radius: 8px;
+	text-align:center;width: 520px; margin: 0 auto; padding: 70px 0; color: #cd934f; font-size:18px;background: url(http://www.springwealth.com.cn/Public/Home/images/input-bg.png) repeat;
+}
+.appoint-form-wrap div p{
+	margin: 0 0 30px 0;
+}
+.appoint-form-wrap div input{
+	font-size:16px;
+}
+.appoint-form-wrap div a{
+	margin: 30px 0 0 0;
+	width: 160px;
+}
+.appoint-form-wrap .error{
+	color:#ff4646 !important;
+	font-size: 14px !important;
+	text-align: left !important;
+	margin: 10px 0 0 0 !important;
+	float: none;
+	padding: 0 58px;
+	height: 16px !important;
+	line-height: 16px !important;
+	display: block !important;
+}
+
+
+
+
+
+/*闂嵎璋冩煡*/
+.questionnaire-banner{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/questionnaire-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 50px 0;
+}
+.questionnaire-wrap{
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+}
+.questionnaire-wrap h1{
+	font-size: 24px;
+	font-weight: normal;
+	color: #000;
+	margin: 0 0 40px 0;
+}
+.questionnaire-wrap h2{
+	font-size: 18px;
+	font-weight: normal;
+	color: #000;
+	text-align: left;
+	margin: 0 0 10px 0;
+}
+.questionnaire-wrap p{
+	font-size: 14px;
+	font-weight: normal;
+	color: #4c4c4c;
+	text-align: left;
+	line-height: 28px;
+	margin: 0 0 40px 0;
+}
+.questionnaire-wrap table.questionnaire{
+	width: 100%;
+	margin: 30px 0 50px 0;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-left:1px solid #A7A7A7;
+	border-top:1px solid #A7A7A7;
+	border-right:1px solid #A7A7A7;
+	background:#fff;
+	font-size: 18px;
+}
+.questionnaire-wrap table.questionnaire th,td{
+	border-right:1px solid #A7A7A7;border-bottom:1px solid #A7A7A7;padding:15px 0; width: 16.6%;
+}
+.questionnaire-wrap table.questionnaire td.odd{
+	width: 10%;
+}
+.questionnaire-wrap table.questionnaire td.even{
+	width: 20%;
+	text-align: left;
+	text-indent: 30px;
+}
+
+.questionnaire-wrap div{
+	background:#F5F5F5;
+	padding: 20px;
+	text-align: left;
+}
+.questionnaire-wrap ul{
+	list-style:none;
+}
+.questionnaire-wrap ul li{
+	border-bottom: 1px solid #D9D9D9 ;
+	padding: 0 0 10px 0;
+	color: #333;
+	margin: 0 0 30px 0;
+}
+.questionnaire-wrap ul li i{
+	display: inline-block;
+	font-style:normal;
+	width: 20px;
+	float: left;
+	margin: 0;
+}
+.questionnaire-wrap ul li div{
+	display: inline-block;
+	width: 98%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+.questionnaire-wrap ul li div label{
+	display: inline-block;
+	width: 49%;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 10px 0;
+	color: #333;
+}
+.questionnaire-wrap ul li div b{
+	display: inline-block;
+	margin: 0 0 30px 0;
+	font-weight: normal;
+	color: #333;
+}
+.questionnaire-wrap a.button{
+	display: inline-block !important;
+	width: 160px;
+	text-align:center;
+}
+.questionnaire-wrap strong{
+	color:#cd934f;
+	font-size: 24px;
+}
+.questionnaire-wrap table.questionnaire_resulet{
+	width: 100%;
+	margin: 30px 0 50px 0;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-left:1px solid #A7A7A7;
+	border-top:1px solid #A7A7A7;
+	border-right:1px solid #A7A7A7;
+	background:#fff;
+	font-size: 18px;
+}
+.questionnaire-wrap table.questionnaire_resulet th,td{
+	border-right:1px solid #A7A7A7;border-bottom:1px solid #A7A7A7;padding:15px 0; width: 16.6%;
+}
+.questionnaire-wrap div.border{
+	border:1px solid #A7A7A7;
+	background: none;
+	padding: 30px;
+}
+.questionnaire-wrap h4{
+	font-size:18px;
+	color:#cd934f;
+}
+.questionnaire-wrap div.border p{
+	display:block !important;
+	margin: 0;
+}
+.questionnaire-wrap a{
+	display: block;
+	margin: 20px 0 50px 0;
+	text-align: left;
+	color: #cd934f;
+	font-size: 14px;
+	line-height:23px;
+	text-decoration: none;
+}
+.questionnaire-wrap a img{
+	float: left;
+	margin: 0 10px 0 0 ;
+}
+
+/*璧勪骇閰嶇疆宸ュ叿 title*/
+.asset-allocation-title{
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 20px 0;color:#333;font-size: 14px;
+}
+.asset-allocation-title h1{
+	font-size: 24px;
+	font-weight: normal;
+	color: #000;
+	margin: 80px 0 40px 0;
+}
+
+/*璧勪骇閰嶇疆宸ュ叿*/
+.asset-allocation-banner{
+	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/asset-allocation-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 50px 0;
+}
+.asset-allocation-wrap{
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+}
+.asset-allocation-wrap h1{
+	font-size: 24px;
+	font-weight: normal;
+	color: #000;
+	margin: 80px 0 40px 0;
+}
+.asset-allocation-wrap div{
+	background:#F5F5F5;
+	padding: 30px;
+	text-align: center;
+}
+.asset-allocation-wrap ul{
+	list-style:none;
+}
+.asset-allocation-wrap ul li{
+	padding: 0 0 0 0;
+	color: #333;
+	margin: 10px 0 0 0;
+	display: none;
+}
+.asset-allocation-wrap ul li:first-child{
+	display:block;
+}
+.asset-allocation-wrap ul li div{
+	display: inline-block;
+	width: 95%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	height: 160px;
+}
+.asset-allocation-wrap ul li div div{
+	height: auto;
+}
+.asset-allocation-wrap ul li div div label{
+	display: inline-block;
+	width: 49%;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 10px 0;
+	color: #333;
+}
+.asset-allocation-wrap ul li div b{
+	display: inline-block;
+	margin: 0 0 30px 0;
+	font-weight: normal;
+	color: #333;
+}
+.asset-allocation-wrap a{
+	width: 160px;
+	padding: 10px 0;
+}
+
+
+
+/*鍛ㄦ湡*/
+.cycle-wrap{
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+}
+.cycle-wrap h1{
+	font-size: 24px;
+	font-weight: normal;
+	color: #000;
+	margin: 80px 0 40px 0;
+}
+.cycle-wrap table{
+	line-height: 24px;
+	text-align: center;
+}
+.cycle-wrap table.tbSe{
+	width: 100%;
+	margin: 70px 0 70px 0;
+	border-collapse:collapse;
+	border-spacing:0;
+	border: none;
+	background:#fff;
+	font-size: 18px;
+}
+.cycle-wrap table.tbSe td{
+	border-right:1px solid #EDE3D4;
+	border-bottom:1px solid #EDE3D4;
+	padding:25px 0;
+	width: 20%;
+	background: #FFFFF3;
+	color: #998a7a;
+	font-size: 16px;/*#665c52*/
+}
+.cycle-wrap table.tbSe th{
+	width: 15%;
+	background: #EADCC6;
+	border-bottom:1px solid #FFFFF3;
+	border-right:1px solid #EDE3D4;
+	padding:25px 0;
+	color: #524a3d;
+	font-size: 18px;
+}
+.cycle-wrap table img{
+	margin: 20px 0;
+}
+.cycle-wrap table.tbSe tr:first-child td p:nth-child(1){
+	font-size:20px;
+}
+.cycle-wrap table.tbSe tr:first-child td p:nth-child(4){
+	font-size:20px;
+}
+.cycle-wrap table.tbSe tr:first-child td{
+	border-top:1px solid #EDE3D4;
+}
+.cycle-wrap .selectd-td-1{
+	color: #665c52;
+	transform: translateY(-10px) scale(1.15);
+	box-shadow:#BDBDBD 0 0 9px;
+	position:relative;
+	z-index:2;
+}
+.cycle-wrap .selectd-td-2{
+	color: #665c52;
+	transform: scale(1.15);
+	box-shadow:#BDBDBD 0 3px 9px;
+	position:relative;
+	z-index:3;
+}
+.cycle-wrap .selectd-td-3{
+	color: #665c52;
+	transform: translateY(12px) scale(1.15);
+	box-shadow:#BDBDBD 0 3px 9px;
+	position:relative;
+	z-index:4;
+}
+.cycle-wrap div{
+	text-align: left;
+	background: #F7F7F7;
+	padding: 50px;
+}
+.cycle-wrap div div{
+	text-align:center;
+}
+.cycle-wrap div div i{
+	display: inline-block;
+	width: 82px;
+	height: 82px;
+	background: #D9D9D9;
+	color: #808080;
+	line-height: 82px;
+	font-style:normal;
+	border-radius: 50px;
+	margin: 0 60px 0 0;
+}
+.cycle-wrap div div i:last-child{
+	margin: 0 0 0 0;
+}
+.cycle-wrap div div i:hover{
+	cursor:pointer;
+	background: #cd934f;
+	color: #fff;
+}
+.cycle-wrap div div i:active{
+	background: #D9D9D9;
+	color: #808080;
+}
+.cycle-wrap h4{
+	color:#666;
+	font-size: 16px;
+	font-weight: normal;
+}
+.cycle-wrap h2{
+	color:#333;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 49px;
+	padding: 0;
+	margin: 10px 0;
+}
+.cycle-wrap h2 img{
+	height: 49px;
+	padding: 0;
+	margin: 0;
+	position:absolute;
+}
+.cycle-wrap h5{
+	color:#333;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 10px 0 0 0 ;
+}
+.cycle-wrap b{
+	color:#666;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+.cycle-wrap b a{
+	color:#cd934f;
+	font-size: 16px;
+}
+.cycle-wrap h3{
+	color:#666;
+	font-size: 16px;
+	margin: 10px 0 30px 0 ;
+	line-height: 28px;
+	font-weight: normal;
+}
+.cycle-wrap h3 span{
+	display: inline-block;
+}
+.cycle-wrap h3 span:first-child{
+	float: left;
+	color: #333;
+	font-size: 18px;
+	margin: 0 26px 0 0;
+}
+
+
+
+/*鏂规*/
+.programme-wrap{
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+}
+.programme-wrap h1{
+	font-size: 24px;
+	color: #000;
+	margin: 60px 0 -60px 0;
+	text-align:center;
+}
+.programme-wrap h4{
+	color:#666;
+	font-size: 16px;
+	font-weight: normal;
+}
+.programme-wrap h2{
+	color:#333;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 49px;
+	padding: 0;
+	margin: 10px 0;
+}
+.programme-wrap h2 img{
+	height: 49px;
+	padding: 0;
+	margin: 0;
+	position:absolute;
+}
+.programme-wrap h5{
+	color:#333;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 10px 0 0 0 ;
+}
+.programme-wrap b{
+	color:#666;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+.programme-wrap b a{
+	color:#cd934f;
+	font-size: 16px;
+}
+.programme-wrap div{
+	text-align: left;
+	background: #F7F7F7;
+	padding: 50px 60px;
+}
+.programme-wrap div div{
+	background: #F7F7F7;
+	padding: 0 ;
+	text-align:center;
+	margin: 20px 0;
+}
+.programme-wrap div div img{
+	margin: 20px 0 ;
+}
+.programme-wrap div div img:last-child{
+	margin: 60px 0 40px 0 ;
+}
+.programme-wrap table.tbFir{
+	line-height: 24px;
+	text-align: center;
+	width: 1000px;
+	margin: 70px auto;
+	border-collapse:collapse;
+	border-spacing:0;
+	border: none;
+	background:#fff;
+	font-size: 18px;
+	border-left:1px solid #EDE3D4;
+}
+.programme-wrap table.tbFir tr.hd td{
+	padding: 25px 0;
+	background: #CD934F;
+	color: #fff;
+	font-size: 18px;/*#665c52*/
+}
+.programme-wrap table.tbFir td{
+	border-right:1px solid #EDE3D4;
+	border-bottom:1px solid #EDE3D4;
+	padding:25px 30px;
+	background: #FFFFF3;
+	color: #998a7a;
+	font-size: 16px;/*#665c52*/
+	width:auto;
+	text-align: left;
+}
+.programme-wrap table.tbFir th{
+	width: 98px;
+	background: #FFFFF3;
+	border-bottom:1px solid #EDE3D4;
+	border-right:1px solid #EDE3D4;
+	padding: 25px 30px;
+	text-align: left;
+	color: #524a3d;
+	font-size: 16px;
+}
+.programme-wrap table.tbFir tr.hd th{
+	width: 98px;
+	padding: 25px 30px;
+	text-align: left;
+	background: #CD934F;
+	color: #fff;
+	font-size: 18px;/*#665c52*/
+	font-weight: normal;
+}
+.programme-wrap table.tbFir tr.hd td{
+	text-align: center;
+}
+.programme-wrap table.tbFir tr.hd th:first-child + td{
+	width: 245px;
+}
+.programme-wrap table.tbFir tr.hd th:first-child + td + td{
+	width: 190px;
+}
+.programme-wrap table.tbFir tr.hd th:first-child + td + td + td{
+	width: 245px;
+}
+
+
+/*椤电爜*/
+.page-wrap{
+	width: 100%;
+	text-align: right;
+	color: #ccc;
+	font-size: 14px;
+	margin: 35px 0 0 0;
+}
+.page-wrap a{
+	display: inline-block;
+	padding: 0 14px;
+	height: 34px;
+	line-height:34px;
+	text-align:center;
+	border: 1px solid #CCCCCC;
+	color: #ccc;
+	text-decoration: none;
+	background-color: #fff;
+	font-size: 14px;
+	margin: 0 0 0 10px;
+	cursor: pointer;
+}
+.page-wrap span{
+	display: inline-block;
+	height: 34px;
+	line-height:34px;
+	text-align:center;
+	margin: 0 0 0 10px;
+}
+.page-wrap a:hover{
+	border: 1px solid #CD934F;
+	color: #fff;
+	background-color: #CD934F;
+}
+.page-wrap a.on{
+	border: 1px solid #CD934F;
+	color: #fff;
+	background-color: #CD934F;
+}
+
+.bt{
+	text-align:center;
+	margin: 0 0 30px 0;
+	color: #333;
+	font-size: 30px;
+}
+
+h6.ft-rt {
+	font-size: 14px;
+	text-align: right;
+	font-weight: normal;
+	margin-top: 50px;
+}
+
+h6.ft-rt a{
+	color: #cd934f;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+/*泉管家俱乐部*/
+.vip-club-banner-wrap{
+	width: 100%;
+}
+/*swiper*/
+.vip-club-banner-wrap .device {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	height: auto;
+}
+.vip-club-banner-wrap .swiper-container {
+	width: 100%;
+	background: #fcfcfc;
+	height: auto;
+}
+.vip-club-banner-wrap .swiper-container a{
+	display: block;
+	text-decoration: none;
+}
+.vip-club-banner-wrap .swiper-container img{
+	width: 100%;
+}
+.vip-club-banner-wrap .swiper-slide:nth-child(2n){
+	background: #f8f8f8;
+}
+.vip-club-banner-wrap .pagination {
+	position: absolute;
+	left: 0;
+	text-align: center;
+	bottom:5px;
+	width: 100%;
+	z-index: 1;
+}
+.vip-club-banner-wrap .swiper-pagination-bullet {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background: #fff;
+	margin: 0 6px;
+	cursor: pointer;
+	opacity: 1;
+}
+.vip-club-banner-wrap .swiper-pagination-bullet-active {
+	background: #cd934f;
+}
+
+.vip-club-article{
+	width: 70%;
+	margin: 4% auto;
+	text-align: center;
+	color: #003e55;
+}
+.vip-club-article span{
+	color: #E3AE6F;
+}
+.vip-club-article p{
+	font-size: 14px;
+	text-align: left;
+	text-indent: 18px;
+	line-height: 22px;
+	margin-top: 30px;
+}
+.vip-club-article p.ls{
+	text-indent: 0;
+}
+
+.case-list-wrap{
+	padding: 20px 0;
+	text-align:center;
+	background-color: #fff;
+}
+.case-list-wrap ul{
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.case-list-wrap ul li{
+	display: inline-block;
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	margin: 0 0;
+	position: relative;
+}
+.case-list-wrap ul li a{
+	display: block;
+	overflow: hidden;
+}
+.case-list-wrap ul li a img{
+	width: 100%;
+	float: left;
+}
+.case-list-wrap ul li a div{
+	width: 100%;
+	padding: 0 0;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-image:url(http://tclottery.oss-cn-hangzhou.aliyuncs.com/web_source/jingquan/images/orange-bg.png);
+	background-repeat: repeat;
+	transition: top 0.5s;
+}
+.case-list-wrap ul li a p{
+	color:#ffffff;
+	font-size: 14px;
+	width: 84%;
+	padding: 0 8%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	text-align: left;
+	line-height: 22px;
+	transition: top 0.5s 0.5s;
+}
+.case-list-wrap ul li a p span{
+	font-size: 25px;
+	line-height: 35px;
+	display:block;
+	margin: 12% 0 5% 0;
+	font-style:normal;
+}
+
+.regular-activities-wrap{
+	width: 1240px;
+	margin: 2.6% auto;
+	text-align: center;
+	background-color: #F8F8F8;
+	padding: 2% 0 5% 0;
+}
+.regular-activities-wrap h2{
+	background-color: #CD924E;
+	color: #ffffff;
+	font-weight: normal;
+	display: inline-block;
+	padding: 5px 20px;
+	margin-bottom: 4%;
+	font-size: 22px;
+}
+.regular-activities-wrap ul{
+	margin: 0 auto;
+}
+.regular-activities-wrap ul li{
+	display: inline-block;
+	width: 30%;
+	margin: 0 4.6% 0 0;
+	position: relative;
+}
+.regular-activities-wrap ul li:last-child{
+	margin: 0 0 0 0;
+	float: right;
+}
+.regular-activities-wrap ul li a{
+	display: block;
+}
+.regular-activities-wrap ul li a img{
+	width: 100%;
+}
+.regular-activities-wrap ul li a h1{
+	color:#ffffff;
+	font-size: 22px;
+	width: 100%;
+	padding: 0 0;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	font-weight: normal;
+}
+.regular-activities-wrap ul li a h1 span{
+	position: absolute;
+	display: inline-block;
+	width: 170px;
+	height: 39px;
+	line-height: 39px;
+	top: 95px;
+	left: 101px;
+	z-index: 6;
+}
+.regular-activities-wrap ul li a div{
+	position: absolute;
+	z-index: 5;
+	display: inline-block;
+	width: 170px;
+	height: 39px;
+	line-height: 39px;
+	top: 95px;
+	left: 101px;
+	opacity: 1;
+	background-image:url(http://tclottery.oss-cn-hangzhou.aliyuncs.com/web_source/jingquan/images/orange-bg.png);
+	background-repeat: repeat;
+	transition: opacity 0.5s;
+}
+.regular-activities-wrap ul li a p{
+	color:#ffffff;
+	font-size: 16px;
+	width: 84%;
+	padding: 0 8%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	text-align: left;
+	line-height: 26px;
+	transition: opacity 0.5s;
+	z-index: 6;
+}
+.regular-activities-wrap ul li a p span{
+	display: inline-block;
+	margin: 20% 0 0 0;
+}
+
+.thematic-activities-wrap{
+	width: 65%;
+	margin: 2.6% auto;
+	text-align: center;
+	padding: 2% 0 0% 0;
+}
+.thematic-activities-wrap h2{
+	background-color: #CD924E;
+	color: #ffffff;
+	font-weight: normal;
+	display: inline-block;
+	padding: 5px 20px;
+	margin-bottom: 4%;
+	font-size: 22px;
+}
+.thematic-activities-wrap ul{
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.thematic-activities-wrap ul li{
+	display: inline-block;
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	margin: 0 5% 5% 0;
+	position: relative;
+	background-color: #F8F8F8;
+}
+.thematic-activities-wrap ul li:nth-child(3n){
+	margin: 0 0 5% 0;
+}
+.thematic-activities-wrap ul li img {
+	width: 100%;
+}
+.thematic-activities-wrap ul li h1 {
+	background-color: #CD924E;
+	color: #ffffff;
+	font-weight: normal;
+	display: inline-block;
+	padding: 5px 20px;
+	margin-top: 8%;
+	font-size: 22px;
+}
+.thematic-activities-wrap ul li p {
+	color: #333333;
+	width: 90%;
+	margin: 6% auto 15% auto;
+	font-size: 16px;
+	line-height: 26px;
+	min-height: 78px;
+	text-align: left;
+}
+
+.vip-club-wrap{
+	width: 100%;
+	text-align: center;
+	background-image: url("http://tclottery.oss-cn-hangzhou.aliyuncs.com/web_source/jingquan/images/vip-club-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 4% 0;
+	margin-bottom: 5%;
+}
+.vip-club-wrap div{
+	background-image: url("http://tclottery.oss-cn-hangzhou.aliyuncs.com/web_source/jingquan/images/line.jpg");
+	background-size: 1px auto;
+	background-position: 31.8% center;
+	background-repeat: no-repeat;
+}
+.vip-club-wrap div img{
+	width: 13.5%;
+	margin-right: 7%;
+}
+.vip-club-wrap div ul{
+	display: inline-block;
+	width: 50%;
+	overflow: hidden;
+}
+.vip-club-wrap div ul li{
+	display: inline-block;
+	width: 31%;
+	margin: 0 3.5% 0 0;
+	float: left;
+	background-color: #ffffff;
+}
+.vip-club-wrap div ul li:last-child{
+	margin: 0 0 0 0;
+}
+.vip-club-wrap div ul li a{
+	display: block;
+	text-decoration: none;
+}
+.vip-club-wrap div ul li img{
+	width: 100%;
+	margin: 0;
+}
+.vip-club-wrap div ul li p{
+	color: #666666;
+	font-size: 18px;
+	padding: 4% 0;
+}
+
+.become-vip-wrap{
+	width: 1240px;
+	margin: 0 auto 5% auto;
+	text-align: center;
+}
+.become-vip-wrap h1{
+	font-weight: normal;
+	font-size: 22px;
+	margin-bottom: 3%;
+	color: #333;
+}
+.become-vip-wrap div.cont{
+	background-color: #F8F8F8;
+	padding: 0 10% 5% 10%;
+}
+.become-vip-wrap .cont h2{
+	background-color: #CD924E;
+	padding: 7px 5% ;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 8% 0 5% 0;
+	display: inline-block;
+}
+.become-vip-wrap .cont p{
+	color: #666;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: left;
+}
+.become-vip-wrap .cont img{
+	width: 100%;
+}
+.integral .cont p{
+	margin-bottom: 2%;
+}
+.integral .cont p span{
+	display: block;
+	text-align: center;
+	margin-top: 3.5%;
+}
+.integral .cont p.ls{
+	background: none;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+.ani{
+	animation:  grow 0.5s ease-out ;
+	-webkit-animation:  grow 0.5s ease-out ;
+}
+.ani2{
+	animation:  grow2 0.5s ease-out ;
+	-webkit-animation:  grow2 0.5s ease-out ;
+}
+@keyframes grow
+{
+	0% {
+		-webkit-transform: scale(0.1);
+		transform: scale(0.1);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@-webkit-keyframes grow
+{
+	0% {
+		-webkit-transform: scale(0.1);
+		transform: scale(0.1);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@keyframes grow2
+{
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	100% {
+		-webkit-transform: scale(0.1);
+		transform: scale(0.1);
+	}
+}
+
+@-webkit-keyframes grow2
+{
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	100% {
+		-webkit-transform: scale(0.1);
+		transform: scale(0.1);
+	}
+}
