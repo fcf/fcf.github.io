@@ -22,33 +22,33 @@ $(function(){
             $(".banner ul li").eq(index).fadeIn("slow").siblings().fadeOut("slow");
             setTimeout(function(){newanimate(index)},500)
         });
-        function fl(){
-            reanimate()
-            var oldpos=$(".current").index();
-            var last=$(".jslist li:last").index();
-            var newpos=oldpos==last?0:oldpos+1;
-            //console.log(newpos,oldpos)
-
-            if(newpos!=0){
-                $(".banner .wbb .kd").css({"height":"0px"})
-                $(".banner .wdn span").html(0);
-            }
-            else{
-                setTimeout(function(){delayURL()},800)
-            }
-            $(".number").find("span").eq(newpos).addClass("current").siblings().removeClass("current");
-            $(".banner li").eq(newpos).fadeIn("slow").siblings().fadeOut("slow");
-
-            setTimeout(function(){ newanimate(newpos)},500)
-
-        }
-        var fun=setInterval(fl,4000)
-        $(".banner").mouseover(function(){
-            clearInterval(fun)
-        })
-        $(".banner").mouseout(function(){
-            fun=setInterval(fl,4000);
-        })
+        // function fl(){
+        //     reanimate()
+        //     var oldpos=$(".current").index();
+        //     var last=$(".jslist li:last").index();
+        //     var newpos=oldpos==last?0:oldpos+1;
+        //     //console.log(newpos,oldpos)
+        //
+        //     if(newpos!=0){
+        //         $(".banner .wbb .kd").css({"height":"0px"})
+        //         $(".banner .wdn span").html(0);
+        //     }
+        //     else{
+        //         setTimeout(function(){delayURL()},800)
+        //     }
+        //     $(".number").find("span").eq(newpos).addClass("current").siblings().removeClass("current");
+        //     $(".banner li").eq(newpos).fadeIn("slow").siblings().fadeOut("slow");
+        //
+        //     setTimeout(function(){ newanimate(newpos)},500)
+        //
+        // }
+        // var fun=setInterval(fl,4000)
+        // $(".banner").mouseover(function(){
+        //     clearInterval(fun)
+        // })
+        // $(".banner").mouseout(function(){
+        //     fun=setInterval(fl,4000);
+        // })
         function reanimate(){
             $(".bannertxt .txt1").stop().css({"opacity": "0", "top": "45px"}, 1)
             $(".bannertxt .txt2").stop().css({"opacity": "0"}, 1)

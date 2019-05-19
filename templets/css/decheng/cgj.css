@@ -70,7 +70,7 @@ a.button.more-gray{
 /*鎸夐挳 VIP-MORE*/
 a.button.vip-more{
 	text-align:left;
-	font-size: 14px;
+	font-size: 13px;
 	color: #fff;
 	width:300px;
 	height: 50px;
@@ -138,7 +138,7 @@ input[type="text"].fillet, input[type="password"].fillet{
 }
 input[type="text"].long, input[type="password"].long{
 	width: 400px;
-	font-size:14px;
+	font-size:13px;
 	margin: 16px 0;
 }
 input[type="text"].short, input[type="password"].short{
@@ -162,7 +162,7 @@ input[type="text"].translucent, input[type="password"].translucent{
 	padding: 15px 10px;
 	width: 370px;
 	margin: 8px 0 26px 0;
-	font-size: 14px;
+	font-size: 13px;
 	border-radius: 4px;
 }
 input[type="text"].name, input[type="password"].name{
@@ -196,7 +196,7 @@ input[type="text"].code, input[type="password"].code{
 /*閿欒鎻愮ず*/
 .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 0 0 0 0 !important;
 	float: left;
@@ -215,7 +215,7 @@ input[type="text"].code, input[type="password"].code{
 	margin: 0 auto;
 	text-align:right;
 	color: #666;
-	font-size: 14px;
+	font-size: 13px;
 	background:url(http://www.springwealth.com.cn/Public/Home/images/logo.png) no-repeat left center;
 	background-size: auto;
 }
@@ -239,7 +239,7 @@ input[type="text"].code, input[type="password"].code{
 	margin: 0;
 }
 .header-tab ul li a{
-	font-size:14px;
+	font-size:13px;
 	display: inline-block;
 	height: 98px;
 	line-height: 98px;
@@ -282,7 +282,7 @@ input[type="text"].code, input[type="password"].code{
 	background-position: center bottom;
 	background-size: 1px 1px;
 	padding: 0 0 0 0;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	float: none;
 }
 .header-tab ul li div a.on{
@@ -311,7 +311,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .appointment-wrap .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 0 0 15px 0 !important;
 	float: none;
@@ -377,13 +377,13 @@ input[type="text"].code, input[type="password"].code{
 	display:inline-block;width: 500px; margin: 40px 0 0 15px; text-align:left; position:absolute;
 }
 .aboutUs-wrap div:first-child + div p{
-	font-size:14px; color:#999; line-height: 25px; text-indent:20px; margin: 20px 0;
+	font-size:13px; color:#999; line-height: 25px; text-indent:20px; margin: 20px 0;
 }
 .aboutUs-wrap div:first-child + div p:first-child + p{
 	font-size:18px; color:#666; margin: 30px 0 0 0;text-indent: 0;line-height: none !important;
 }
 .aboutUs-wrap div:first-child + div ul{
-	list-style-type: none; color:#666; font-size:14px; line-height: 25px;
+	list-style-type: none; color:#666; font-size:13px; line-height: 25px;
 }
 .aboutUs-wrap div:first-child + div ul li span{
 	display: inline-block; background-color:#666; width:10px; height: 10px; border-radius:50px; margin:0 6px 0 0;
@@ -476,7 +476,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .projects-form-login .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 0 0 0 0 !important;
 	float: left;
@@ -486,7 +486,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .projects-form-register .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 20px 0 0 0 !important;
 	float: left;
@@ -505,7 +505,7 @@ input[type="text"].code, input[type="password"].code{
 	text-decoration: none;
 	position: absolute;
 	color: #cc0000;
-	font-size:14px;
+	font-size:13px;
 	margin: 25px 0 0 0;
 	right: 90px;
 	width: 100px;
@@ -595,7 +595,7 @@ input[type="text"].code, input[type="password"].code{
 .content-slide {
 	padding: 0;
 	color: #999;
-	font-size: 14px;
+	font-size: 13px;
 	text-align:left;
 	height: 600px;
 }
@@ -604,7 +604,7 @@ input[type="text"].code, input[type="password"].code{
 	color: #999;
 }
 .content-slide p {
-	font-size: 14px;
+	font-size: 13px;
 	display:inline-block;
 	width: 90%;
 	margin: 0 5%;
@@ -695,7 +695,7 @@ input[type="text"].code, input[type="password"].code{
 	color: #666;
 }
 .news-list ul li div:first-child p:first-child + p{
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 22px;
 	margin: 0 0 0 0;
 	color: #999;
@@ -713,7 +713,7 @@ input[type="text"].code, input[type="password"].code{
 .news-list ul li div:first-child + div span{
 	display: inline-block;
 	height: 30px;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 16px;
 	margin: 0 0 0 3px;
 }
@@ -799,7 +799,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .vip-txt ul li div b{
 	display: block;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: normal;
 	margin: 0 0 10px 0 ;
 }
@@ -812,7 +812,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .vip-form .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 0 0 10px 0 !important;
 	float: none;
@@ -857,7 +857,7 @@ input[type="text"].code, input[type="password"].code{
 .vip-txt-right div span{
 	display: inline-block;
 	width: 80%;
-	font-size: 14px;
+	font-size: 13px;
 	text-align: left;
 	margin: 20px 0 10px 0;
 }
@@ -934,7 +934,7 @@ input[type="text"].code, input[type="password"].code{
 .footer-wrap ul li a{
 	display:block;
 	color: #999;
-	font-size: 14px;
+	font-size: 13px;
 	text-decoration: none;
 	margin: 0 0 20px 0;
 }
@@ -956,10 +956,10 @@ input[type="text"].code, input[type="password"].code{
 	background-color:#cd934f; padding: 0 0 15px 0;
 }
 .footer-addr-warp{
-	text-align:left;padding: 0 0 0 30px;color:#fff; font-size:14px; margin: 10px 0 10px 0 ;line-height:22px;
+	text-align:left;padding: 0 0 0 30px;color:#fff; font-size:13px; margin: 10px 0 10px 0 ;line-height:22px;
 }
 .footer-addr-warp span{
-	display:inline-block; float:left;font-size:14px;
+	display:inline-block; float:left;font-size:13px;
 }
 .footer-addr-warp p{
 	width:170px;display:inline-block;
@@ -999,7 +999,7 @@ input[type="text"].code, input[type="password"].code{
 	display:inline-block; width:50px; height:50px; margin: 20px;
 }
 .footer-tel span{
-	font-size:14px;color:#cd934f; border-left: 1px solid #cd934f; padding: 0 0 0 15px; display:inline-block; text-align:left; position:absolute; margin: 28px 0 0 0;
+	font-size:13px;color:#cd934f; border-left: 1px solid #cd934f; padding: 0 0 0 15px; display:inline-block; text-align:left; position:absolute; margin: 28px 0 0 0;
 }
 .footer-tel span b{
 	display:inline-block;font-size:16px; font-weight:normal; margin: 0 0 5px 0;
@@ -1022,7 +1022,7 @@ input[type="text"].code, input[type="password"].code{
 	display:block;font-size:18px; color:#333 !important; margin: 0 0 0 0 ;text-align:left; line-height:18px;
 }
 .about-info p{
-	font-size:14px; color:#666; margin: 120px 100px 0 0 ; line-height:28px; width:510px; display:inline-block;text-align:left; float:right;
+	font-size:13px; color:#666; margin: 120px 100px 0 0 ; line-height:28px; width:510px; display:inline-block;text-align:left; float:right;
 }
 .about-company-bottom{
 	width:1240px; margin: 0 auto 155px auto; text-align:center; background:#F8F8F8;
@@ -1040,7 +1040,7 @@ input[type="text"].code, input[type="password"].code{
 	display:inline-block; width:80%; text-align:left; font-size:18px; color:#333; margin:80px 0 20px 0;
 }
 .about-company-bottom div div p{
-	display:inline-block; width:80%; text-align:left; font-size:14px; color:#666; line-height:26px;
+	display:inline-block; width:80%; text-align:left; font-size:13px; color:#666; line-height:26px;
 }
 .about-company-bottom .str-2{
 	margin:70px 0 20px 0;
@@ -1129,7 +1129,7 @@ input[type="text"].code, input[type="password"].code{
 .team-list ul li div:first-child + div p:first-child + p{
 	color:#666;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 8px 0 0 0;
 }
 .team-list ul li div:first-child + div p:first-child + p + hr{
@@ -1147,13 +1147,13 @@ input[type="text"].code, input[type="password"].code{
 }
 .team-list ul li div:first-child + div p:first-child + p + hr + p{
 	color:#999;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 30px 0;
 	line-height: 26px;
 }
 .team-list ul li div:first-child + div p:first-child + p + hr + p + p{
 	color:#999;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 26px;
 }
 
@@ -1249,7 +1249,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .join-us-mail span{
 	background: #fff;
-	font-size: 14px;
+	font-size: 13px;
 	color: #596169;
 	display: inline-block;
 	line-height: 30px;
@@ -1292,7 +1292,7 @@ input[type="text"].code, input[type="password"].code{
 	display: inline-block;
 	margin: 10px 0 0 0;
 	color: #fff;
-	font-size: 14px;
+	font-size: 13px;
 }
 .contact-us ul li:first-child{
 	padding: 0 40px 0 0;
@@ -1420,7 +1420,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .activity-form .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 0 0 3px 2px !important;
 	float: none;
@@ -1449,7 +1449,7 @@ input[type="text"].code, input[type="password"].code{
 	display: inline-block;
 	text-decoration: none;
 	color: #cd934f;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 9px -23px 0 0;
 	background: #fff;
 	float: right;
@@ -1569,7 +1569,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .project-login-form label{
 	color: #999;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 15px 0 20px 0;
 	display: block;
 }
@@ -1584,7 +1584,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .project-login-form .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 0 0 10px 0 !important;
 	float: none;
@@ -1595,7 +1595,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .project-register-form .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 10px 0 0 0 !important;
 	float: none;
@@ -1778,7 +1778,7 @@ input[type="text"].code, input[type="password"].code{
 	margin: 0 auto;
 	border-top: 1px solid #ddd;
 	padding: 25px 0;
-	font-size: 14px;
+	font-size: 13px;
 	color: #999;
 	text-align: center;
 }
@@ -1819,7 +1819,7 @@ input[type="text"].code, input[type="password"].code{
 	margin: 0 0 40px 0;
 }
 .project-cont-xinda ul{
-	font-size: 14px;
+	font-size: 13px;
 	text-align: left;
 	line-height: 30px;
 }
@@ -1889,7 +1889,7 @@ input[type="text"].code, input[type="password"].code{
 	text-align:center; font-size:24px; font-weight: normal;
 }
 .agreement-wrap p{
-	display:inline-block; margin: 30px 5%; line-height: 26px; width: 90%; text-align:left; height:750px; overflow-y:scroll;  overflow-style:marquee-block;font-size: 14px;
+	display:inline-block; margin: 30px 5%; line-height: 26px; width: 90%; text-align:left; height:750px; overflow-y:scroll;  overflow-style:marquee-block;font-size: 13px;
 }
 .agreement-wrap a{
 	width: 80px;
@@ -1917,7 +1917,7 @@ input[type="text"].code, input[type="password"].code{
 }
 .appoint-form-wrap .error{
 	color:#ff4646 !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	margin: 10px 0 0 0 !important;
 	float: none;
@@ -1936,7 +1936,7 @@ input[type="text"].code, input[type="password"].code{
 	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/questionnaire-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 50px 0;
 }
 .questionnaire-wrap{
-	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 13px;
 }
 .questionnaire-wrap h1{
 	font-size: 24px;
@@ -1952,7 +1952,7 @@ input[type="text"].code, input[type="password"].code{
 	margin: 0 0 10px 0;
 }
 .questionnaire-wrap p{
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: normal;
 	color: #4c4c4c;
 	text-align: left;
@@ -2065,7 +2065,7 @@ input[type="text"].code, input[type="password"].code{
 	margin: 20px 0 50px 0;
 	text-align: left;
 	color: #cd934f;
-	font-size: 14px;
+	font-size: 13px;
 	line-height:23px;
 	text-decoration: none;
 }
@@ -2076,7 +2076,7 @@ input[type="text"].code, input[type="password"].code{
 
 /*璧勪骇閰嶇疆宸ュ叿 title*/
 .asset-allocation-title{
-	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 20px 0;color:#333;font-size: 14px;
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 20px 0;color:#333;font-size: 13px;
 }
 .asset-allocation-title h1{
 	font-size: 24px;
@@ -2090,7 +2090,7 @@ input[type="text"].code, input[type="password"].code{
 	height:210px; background:url(http://www.springwealth.com.cn/Public/Home/images/asset-allocation-banner.png) no-repeat center top; background-size: auto 100%; margin: 0 0 50px 0;
 }
 .asset-allocation-wrap{
-	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 13px;
 }
 .asset-allocation-wrap h1{
 	font-size: 24px;
@@ -2149,7 +2149,7 @@ input[type="text"].code, input[type="password"].code{
 
 /*鍛ㄦ湡*/
 .cycle-wrap{
-	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 13px;
 }
 .cycle-wrap h1{
 	font-size: 24px;
@@ -2308,7 +2308,7 @@ input[type="text"].code, input[type="password"].code{
 
 /*鏂规*/
 .programme-wrap{
-	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 14px;
+	text-align:center;width: 1240px; margin: 0 auto; padding: 0 0 80px 0;color:#333;font-size: 13px;
 }
 .programme-wrap h1{
 	font-size: 24px;
@@ -2434,7 +2434,7 @@ input[type="text"].code, input[type="password"].code{
 	width: 100%;
 	text-align: right;
 	color: #ccc;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 35px 0 0 0;
 }
 .page-wrap a{
@@ -2447,7 +2447,7 @@ input[type="text"].code, input[type="password"].code{
 	color: #ccc;
 	text-decoration: none;
 	background-color: #fff;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 0 0 0 10px;
 	cursor: pointer;
 }
@@ -2477,7 +2477,7 @@ input[type="text"].code, input[type="password"].code{
 }
 
 h6.ft-rt {
-	font-size: 14px;
+	font-size: 13px;
 	text-align: right;
 	font-weight: normal;
 	margin-top: 50px;
@@ -2548,7 +2548,7 @@ h6.ft-rt a{
 	color: #E3AE6F;
 }
 .vip-club-article p{
-	font-size: 14px;
+	font-size: 13px;
 	text-align: left;
 	text-indent: 18px;
 	line-height: 22px;
@@ -2597,7 +2597,7 @@ h6.ft-rt a{
 }
 .case-list-wrap ul li a p{
 	color:#ffffff;
-	font-size: 14px;
+	font-size: 13px;
 	width: 84%;
 	padding: 0 8%;
 	height: 100%;

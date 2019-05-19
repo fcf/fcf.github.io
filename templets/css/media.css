@@ -53,7 +53,7 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #7c582c;
-    font-size: 14px;
+    font-size: 13px;
     margin-right: 10px;
 }
 
@@ -67,7 +67,7 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #7c582c;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .mheader .back {
@@ -104,7 +104,7 @@
 .picScroll .bd li {
     width: 33%;
     float: left;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -224,7 +224,9 @@
 
     .Office_Services_tit {
         background: url(/templets/img/services_bg.png) no-repeat scroll center center;
-        display: none;
+        font-size: 26px;
+        margin-bottom: 2%;
+        /*display: none;*/
     }
 
     .about_tit {
@@ -391,7 +393,7 @@
     }
 
     .about_box1 dt p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 160%;
         padding: 4%;
     }
@@ -565,7 +567,7 @@
     .about_team_main_m ul li .info p {
         width: 100%;
         float: left;
-        font-size: 14px;
+        font-size: 13px;
         color: #555555;
         line-height: 140%;
         width: 100%;
@@ -599,7 +601,7 @@
     }
 
     .sfo_main_tittle p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 180%;
     }
 
@@ -634,7 +636,7 @@
     }
 
     .title_kzjj1 h1 span {
-        font-size: 14px;
+        font-size: 13px;
         padding: 2% 0;
         width: 100%;
         display: block;
@@ -1083,7 +1085,7 @@
     }
 
     .new_list_detail_box {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 140%;
     }
 
@@ -1307,11 +1309,13 @@
 
     .picScroll .w1131 {
         width: 100%;
+        height: 1214px;
     }
 
     .Office_Services_list dl {
-        float: none;
-        margin: 0 auto;
+        /*float: none;*/
+        /*margin: 0 auto;*/
+        margin-bottom: 30px;
         opacity: 1;
     }
 
@@ -1406,5 +1410,10 @@
         margin: 0 5% 5% 0;
         position: relative;
         background-color: #F8F8F8;
+    }
+
+    .zczhgl_list1 {
+        padding-top: 50px;
+        padding-left: 9%;
     }
 }

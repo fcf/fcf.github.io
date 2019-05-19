@@ -19,14 +19,14 @@
     left:50%;
 }
 
-.header .logo{ padding-top:50px;}
+.header .logo{ padding-top:35px;}
 .header{ height:152px;}
 .header .logo a{float: left;}
 .header .logo img{height: 86px;width: auto;}
 .header .logo p{float: right;margin-top: 33px;}
 .header_website{ padding-top:23px; text-align:right;}
 .header_website span{ padding-left:10px; padding-right:10px;}
-.header_website a{ font-family:"微软雅黑"; font-size:14px; color:#535353;}
+.header_website a{ font-family:"微软雅黑"; font-size:13px; color:#535353;}
 .header_website a:hover{ color:#81603b;}
 .header_website b{ font-weight:100; padding-right:10px;}
 .header_website .header_mfdy a{color:#7d5a2f;}

@@ -18,7 +18,7 @@ $(".pic").hover(function(){
 	$(this).addClass('pic_hover');
 	},function(){
 	$(this).removeClass('pic_hover');
-	});	
+	});
 
 });
 
@@ -42,54 +42,54 @@ $(document).ready(function() {
 
 
 $(function(){
-		   
-	//ж╠╫сотй╬узужп╖╧Ш©╙й╪
+
+	//ж╠О©╫О©╫О©╫О©╫й╬О©╫О©╫О©╫О©╫п╖О©╫О©╫О©╫О©╫й╪
 	$(".con-two").hover(function(){
 		$(this).find(".txt-two").css("display","block");
 		},function(){
 			$(this).find(".txt-two").css("display","none");
 	})
-	//ж╠╫сотй╬узужп╖╧Ш╫АйЬ		   
+	//ж╠О©╫О©╫О©╫О©╫й╬О©╫О©╫О©╫О©╫п╖О©╫О©╫О©╫О©╫О©╫О©╫
 
-}); 
+});
 
 $(function(){
-		   
-	//ж╠╫сотй╬узужп╖╧Ш©╙й╪
+
+	//ж╠О©╫О©╫О©╫О©╫й╬О©╫О©╫О©╫О©╫п╖О©╫О©╫О©╫О©╫й╪
 	$(".con-two2").hover(function(){
 		$(this).find(".txt-two2").css("display","block");
 		},function(){
 			$(this).find(".txt-two2").css("display","none");
 	})
-	//ж╠╫сотй╬узужп╖╧Ш╫АйЬ		   
+	//ж╠О©╫О©╫О©╫О©╫й╬О©╫О©╫О©╫О©╫п╖О©╫О©╫О©╫О©╫О©╫О©╫
 
-}); 
+});
 
 $(function(){
-		   
-	//ж╠╫сотй╬узужп╖╧Ш©╙й╪
+
+	//ж╠О©╫О©╫О©╫О©╫й╬О©╫О©╫О©╫О©╫п╖О©╫О©╫О©╫О©╫й╪
 	$(".con-two3").hover(function(){
 		$(this).find(".txt-two3").css("display","block");
 		},function(){
 			$(this).find(".txt-two3").css("display","none");
 	})
-	//ж╠╫сотй╬узужп╖╧Ш╫АйЬ		   
+	//ж╠О©╫О©╫О©╫О©╫й╬О©╫О©╫О©╫О©╫п╖О©╫О©╫О©╫О©╫О©╫О©╫
 
-}); 
+});
 
 
 $(function(){
-		   
+
 	  $(".Office_Services_list dl").eq(0).animate({"opacity":"1"},800)
 		setTimeout(function(){
 			$(".Office_Services_list dl").eq(1).animate({"opacity":"1"},800)
 		},200)
 		setTimeout(function(){
 			$(".Office_Services_list dl").eq(2).animate({"opacity":"1"},800)
-		},400)	
-		
-	$(".page_banner_box .new_banner_yw").stop().animate({"opacity":"1","margin-top":"0px"},1200)
-	$(".page_banner_box .new_banner_zw").stop().animate({"opacity":"1","margin-top":"0px"},1200)   
+		},400)
 
-}); 
-		   
+	$(".page_banner_box .new_banner_yw").stop().animate({"opacity":"1","margin-top":"0px"},1200)
+	$(".page_banner_box .new_banner_zw").stop().animate({"opacity":"1","margin-top":"0px"},1200)
+
+});
+
