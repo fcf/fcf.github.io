@@ -5,7 +5,7 @@ $(function(){
         $(".bannertxt .txt1").stop().animate({"opacity": "1", "left": "159px", "top": "145px"}, 1200)
         $(".bannertxt .txt2").stop().animate({"opacity": "1"}, 1200)
         $(".bannertxt .txt3").stop().animate({"opacity": "1", "left": "0px", "top": "300px"}, 1200, function () {
-            setTimeout(function(){delayURL()},400)
+            // setTimeout(function(){delayURL()},400)
         })
         $(".banner ul li").eq(0).css("display","block").fadeIn(600);
         $(".banner .number span").bind("mousedown",function(){

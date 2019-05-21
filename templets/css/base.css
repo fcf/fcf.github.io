@@ -2,22 +2,16 @@
 /* 51eway.com CSS Document */
 @font-face {
   font-family: "HYRunYuan-65W";
-  src: url(http://www.triumphfamily.com/templets/fonts/HYRunYuan-65W.woff2) format("woff2"),
-       url(http://www.triumphfamily.com/templets/fonts/HYRunYuan-65W.woff) format("woff"),
-       url(http://www.triumphfamily.com/templets/fonts/HYRunYuan-65W.ttf) format("truetype"),
-       url(http://www.triumphfamily.com/templets/fonts/HYRunYuan-65W.eot) format("embedded-opentype"),
-       url(http://www.triumphfamily.com/templets/fonts/HYRunYuan-65W.svg) format("svg");
+  src: url(../fonts/HYRunYuan-65W.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "TrajanPro-Regular";
-  src: url(http://www.triumphfamily.com/templets/fonts/TrajanPro-Regular.woff2) format("woff2"),
-       url(http://www.triumphfamily.com/templets/fonts/TrajanPro-Regular.woff) format("woff"),
-       url(http://www.triumphfamily.com/templets/fonts/TrajanPro-Regular.ttf) format("truetype"),
-       url(http://www.triumphfamily.com/templets/fonts/TrajanPro-Regular.eot) format("embedded-opentype"),
-       url(http://www.triumphfamily.com/templets/fonts/TrajanPro-Regular.svg) format("svg");
+  src: url(../fonts/TrajanPro-Regular.ttf) format("truetype"),
+       url(../fonts/TrajanPro-Regular.eot) format("embedded-opentype"),
+       url(../fonts/TrajanPro-Regular.svg) format("svg");
   font-weight: normal;
   font-style: normal;
 }

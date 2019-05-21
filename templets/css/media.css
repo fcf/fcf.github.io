@@ -115,7 +115,7 @@
 .picScroll .bd li img {
     width: 90px;
     height: 142px;
-    background: url(/templets/css/images/loading.gif) #fff center center no-repeat;
+    background: #fff center center no-repeat;
 }
 
 
@@ -154,7 +154,7 @@
     float: right;
     width: 18px;
     height: 18px;
-    background: url(/templets/css/images/pisScrollIcons.gif) -6px -7px no-repeat;
+    background: -6px -7px no-repeat;
     overflow: hidden;
     margin: 11px 5px 0 5px;
 }
@@ -359,7 +359,7 @@
     }
 
     .about_banner {
-        background: url(http://www.triumphfamily.com/templets/img/about_banner.jpg) no-repeat scroll center center / auto 100%;
+        background: url(../img/about_banner.jpg) no-repeat scroll center center / auto 100%;
         padding-bottom: 53.125%;
         height: 0;
     }
@@ -580,7 +580,7 @@
     }
 
     .sfo_del_banner {
-        background: url(http://www.triumphfamily.com/templets/img/banner_sfo.jpg) no-repeat scroll center center / auto 100%;
+        background: url(../img/banner_sfo.jpg) no-repeat scroll center center / auto 100%;
         padding-bottom: 53.125%;
         height: 0;
     }
@@ -653,7 +653,7 @@
 
 
     .jzccgh_banner {
-        background: url(http://www.triumphfamily.com/templets/img/jzccgh_banner.jpg) no-repeat scroll center center / auto 100%;
+        background: url(../img/jzccgh_banner.jpg) no-repeat scroll center center / auto 100%;
         padding-bottom: 53.125%;
         height: 0;
     }
@@ -755,7 +755,7 @@
     }
 
     .jzccgh_del_banner {
-        background: url(http://www.triumphfamily.com/templets/img/banner_kzjj.jpg) no-repeat scroll center center / auto 100%;
+        background: url(../img/banner_kzjj.jpg) no-repeat scroll center center / auto 100%;
         padding-bottom: 53.125%;
         height: 0;
     }
@@ -811,7 +811,7 @@
     }
 
     .jzyjy_banner {
-        background: url(http://www.triumphfamily.com/templets/img/jzyjy_banner.jpg) no-repeat scroll center center / auto 100%;
+        background: url(../img/jzyjy_banner.jpg) no-repeat scroll center center / auto 100%;
         padding-bottom: 53.125%;
         height: 0;
     }
@@ -821,7 +821,7 @@
     }
 
     .jzbgsjs_banner {
-        background: url(http://www.triumphfamily.com/templets/img/jzbgsjs_banner.jpg) no-repeat scroll center center / auto 100%;
+        background: url(../img/jzbgsjs_banner.jpg) no-repeat scroll center center / auto 100%;
         padding-bottom: 53.125%;
         height: 0;
     }
@@ -1273,7 +1273,7 @@
         float: right;
         width: 18px;
         height: 18px;
-        background: url(/templets/css/images/pisScrollIcons.gif) -6px -7px no-repeat;
+        background: -6px -7px no-repeat;
         overflow: hidden;
         margin: 11px 5px 0 5px;
     }

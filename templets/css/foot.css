@@ -31,8 +31,8 @@
 #EWM{position:absolute;left:-150px;display:none;}
 #EWM img{width:150px;height:150px;}
 
-#top{background:url(http://www.triumphfamily.com/templets/img/top.png) no-repeat;}
-#top:hover{background:url(http://www.triumphfamily.com/templets/img/toped.png) no-repeat;}
+#top{background:url(../img/top.png) no-repeat;}
+#top:hover{background:url(../img/toped.png) no-repeat;}
 
 /*翻页 */
 
